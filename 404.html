@@ -1,0 +1,461 @@
+<html>
+<head>
+	<title>An Phú Khang // Google+</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+	<meta name="description" content="Tư vấn ✔ Thiết kế ✔ Thi công ✔ kiểm Toán"/>
+	<meta name="keywords" content="Tư vấn, Thiết kế, Thi công, kiểm Toán, xây dựng, Design, Audit, Construction, Consultants"/>
+
+	<!-- Schema.org Google+ -->
+	<meta itemprop="name" content="@Hữu Lương"/>
+	<meta http-equiv="content-language" content="en, vi"/>
+	<meta itemprop="description" content="Tư vấn ✔ Thiết kế ✔ Thi công ✔ kiểm Toán"/>
+	<meta itemprop="image" content="https://anphukhang.com/t.svg"/>
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@TinfoVN" />
+	<meta name="twitter:title" content="WE is a team based in HCMC." />
+	<meta name="twitter:description" content="Discovery and impact is what drives all of our endeavors." />
+	<meta name="twitter:image" content="https://anphukhang.com/t.svg" />
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="An Phu Khang"/>
+	<meta property="og:type" content="article"/>
+	<meta property="og:url" content="https://anphukhang.com/"/>
+	<meta property="og:image" content="https://anphukhang.com/t.svg"/>
+	<meta property="og:description" content="Tư vấn ✔ Thiết kế ✔ Thi công ✔ kiểm Toán"/>
+	<meta property="og:site_name" content="Cong ty TNHH Tu Van Thiet Ke Xay Dung An Phu Khang"/>
+	<meta property="article:published_time" content="2011-07-11T11:07:00+07:00"/>
+	<meta property="article:modified_time" content="2011-07-17T17:07:00+07:00"/>
+	<meta property="article:section" content="Hữu Lương"/>
+	<meta property="article:tag" content="APKG Co., Ltd"/>
+	<meta property="fb:admins" content="851460495062693"/> 
+	
+		<!-- Include Font Awesome v4.1.0 -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<!-- Custom your style -->
+		
+		
+		
+		<style>
+/******************************************************
+* #### jQuery-Google-Plus-Stream v2.0 ####
+* Coded by Ican Bachors 2014.
+* https://github.com/bachors/jQuery-Google-Plus-Stream
+* Updates will be posted to this site.
+******************************************************/
+
+#GPstream {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0
+}
+
+#GPstream .box {
+	display: block;
+	width: 100%;
+	background: #fff;
+	color: #000;
+	padding: 0;
+	margin-bottom: 30px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+#GPstream .box iframe,
+#GPstream .box video {
+	width: 100%;
+	height: auto;
+	min-height: 260px;
+}
+
+#GPstream .box .status-message {
+	display: block;
+	overflow: hidden;
+	padding: 15px 15px 5px;
+	word-wrap: break-word;
+}
+
+#GPstream .box .status-message b {
+	font-size: 1.5em;
+}
+
+#GPstream .box .quot {
+	text-align: center;
+	font-size: 1.4em;
+	line-height: 1.2;
+}
+
+#GPstream .box .quot b {
+	font-size: 1.5em;
+}
+
+#GPstream .box .quot i {
+	display: block;
+	color: #999;
+}
+
+#GPstream .box .quot i.fa-quote-right {
+	margin-bottom: 15px;
+}
+
+#GPstream .box .quot i.fa-quote-left {
+	margin-top: 15px;
+}
+
+#GPstream .box .status-message a.urls {
+	color: #2879d0;
+	text-decoration: underline	
+}
+
+#GPstream .box .status-user {
+	padding: 15px;
+	position: relative;
+}
+
+#GPstream .box .status-user a,
+#GPstream .box .status-message a.users,
+#GPstream .box .status-message a.tags,
+#GPstream .box .status-message a.titles:hover {
+	color: #2879d0;
+	text-decoration: none;
+}
+
+#GPstream .box .status-message a.titles {
+	color: #000;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 10px;
+	text-decoration: underline
+}
+
+#GPstream .box .status-user a.date {
+	color: #999;
+	text-decoration: none;
+}
+
+#GPstream .box .status-user a.date:hover,
+#GPstream .box .status-user a:hover,
+#GPstream .box .status-message a.users:hover,
+#GPstream .box .status-message a.tags:hover {
+	text-decoration: underline;
+}
+
+#GPstream .box .status-user-image {
+	float: left;
+	width: 45px;
+	height: 45px;
+	margin: 0 12px 0 0;
+	border-radius: 50%;
+}
+
+#GPstream .box .status-user-image img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+#GPstream .box .status-user-name {
+	margin-top: 0;
+	height: 25px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-weight: 400
+}
+
+#GPstream .box .status-user-name a {
+	color: #000
+}
+
+#GPstream .box .status-type {
+	position: absolute;
+	right: 15px;
+	bottom: 11px;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+#GPstream .box .status-type .fa-google-plus {
+	color: #FF6C60
+}
+
+#GPstream .box img.feed_galeri {
+	width: 100%
+}
+
+#GPstream .box .status-bottom {
+	display: block;
+	width: 100%;
+	height: 45px;
+	background: #fafafa;
+	padding: 0;
+	position: relative
+}
+
+#GPstream .box .status-bottom a {
+	color: #999;
+	text-decoration: none;
+	background: #fafafa;
+	border-top: 1px solid #ccc;
+	float: left;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#GPstream .box .tilu a {
+	width: 33.33%;
+}
+
+#GPstream #feed-more {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	cursor: pointer;
+	border: none;
+	padding: 15px 20px 15px 20px;
+	background: #d34836;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none
+}
+
+#GPstream #feed-more:hover {
+    background-color: #eee;
+	color: #34495e;
+}		
+		</style>
+		
+		<!-- Demo -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100italic,100,300italic,300,400italic,400,500italic,500,700italic,700,900italic,900" rel="stylesheet">
+		
+		
+		
+		<style>
+		body {
+			background: #eee;
+			font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+			font-weight: 300;
+			line-height: 24px;
+		}
+		.demo {
+			width: auto;
+			min-width: 320px;
+			max-width: 500px;
+			margin: 20px auto
+		}
+		</style>
+		
+	</head>
+	<body>
+		
+		<div class="demo">
+		
+			<!-- Display all google+ timeline -->
+			<div id="GPstream"></div>
+			
+		</div>
+		
+		<!-- Include jQuery -->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<!-- Include jquery.ibacor-gp-streaming -->
+		<script type='text/javascript'>//<![CDATA[
+/******************************************************
+* #### jQuery-Google-Plus-Stream v2.0 ####
+* Coded by Ican Bachors 2014.
+* https://github.com/bachors/jQuery-Google-Plus-Stream
+* Updates will be posted to this site.
+******************************************************/
+
+var GPstream = function(set) {
+	
+    feed('');
+
+    function feed(g) {
+        $.ajax({
+            url: 'https://www.googleapis.com/plus/v1/people/' + set.user + '/activities/public?key=' + set.key + '&pageToken=' + g,
+            crossDomain: true,
+            dataType: 'jsonp'
+        }).done(function(data) {
+            var html = '',
+				baseurl = '';
+			$.each(data.items, function(i, a) {				
+                var poto = '',
+					title = '';
+				if (data.items[i].object.attachments != '' && data.items[i].object.attachments != null && data.items[i].object.attachments != undefined) {
+					if (data.items[i].object.attachments[0].objectType == 'video' && data.items[i].object.attachments[0].embed != null) {
+						poto += '	<a href="#" class="googlevid" title="Play this videos" data-video="' + data.items[i].object.attachments[0].embed.url + '">';
+						poto += '		<img src="' + data.items[i].object.attachments[0].image.url + '" class="feed_galeri"/>';
+						poto += '	</a>';
+					}else if (data.items[i].object.attachments[0].objectType == 'photo') {
+						poto += '	<a href="' + data.items[i].url + '" target="_blank">';
+						poto += '		<img src="' + data.items[i].object.attachments[0].fullImage.url + '"  class="feed_galeri"/>';
+						poto += '	</a>';
+					}else if (data.items[i].object.attachments[0].objectType == 'article') {
+						if (data.items[i].object.attachments[0].image != null) {
+							poto += '	<a href="' + data.items[i].url + '" target="_blank">';
+							poto += '		<img src="' + data.items[i].object.attachments[0].image.url + '"  class="feed_galeri"/>';
+							poto += '	</a>';
+						}
+					}
+				}
+                if (data.items[i].object.content != "" && data.items[i].object.content != null && data.items[i].object.content != undefined) {
+                    title += (poto == '') ? '<div class="status-message quot"><i class="fa fa-quote-right"></i>' : '<div class="status-message">';					
+					if (data.items[i].object.attachments != null && data.items[i].object.attachments[0].objectType == 'article') {
+						title += '<a href="' + data.items[i].object.attachments[0].url + '" class="titles" target="_BLANK">' + data.items[i].object.attachments[0].displayName + '</a> ';
+					}
+					title += urltag(strip_tags(data.items[i].object.content).replace(/&#39;/ig, "'"));
+					title += (poto == '') ? '<i class="fa fa-quote-left"></i>' : '';
+					title += '</div>';
+                }				
+				
+                html += '<div class="box">';
+				html += poto + title;
+                html += '	<div class="status-user">';
+                html += '		<a href="' + data.items[i].actor.url + '" target="_BLANK" class="status-user-image">';
+                html += '			<img src="' + data.items[i].actor.image.url + '">';
+                html += '		</a>';
+                html += '		<div class="status-user-name" title="' + data.items[i].actor.displayName + '">';
+                html += '			<a href="' + data.items[i].actor.url + '" target="_BLANK">' + data.items[i].actor.displayName + '</a>';
+                html += '		</div>';
+                html += '		<a href="' + data.items[i].url + '" class="date" target="_blank">' + relative_time(data.items[i].published) + ' ago</a>';
+                html += '		<div class="status-type" title="Google+"><i class="fa fa-google-plus"></i></div>';
+                html += '	</div>';
+				html += '	<div class="status-bottom tilu">';
+				html += '		<a href="' + data.items[i].url + '" target="_BLANK" title="Plusone"><i class="fa fa-plus"></i> ' + koma(data.items[i].object.plusoners.totalItems) + '</a><a href="' + data.items[i].url + '" target="_BLANK" title="Reply"><i class="fa fa-share"></i> ' + koma(data.items[i].object.replies.totalItems) + '</a><a href="https://plus.google.com/share?url=' + data.items[i].url + '" target="_BLANK" title="Share"><i class="fa fa-share-alt"></i> ' + koma(data.items[i].object.resharers.totalItems) + '</a>';
+				html += '	</div>';
+                html += '</div>';
+			});
+			html += (data.nextPageToken != null && data.nextPageToken != undefined) ? '<a id="feed-more">Load More</a>' : "";
+            $('#GPstream').append(html);
+			$('.googlevid').click(function() {
+				$(this).replaceWith('<iframe src="' + $(this).data("video").replace('https://www.youtube.com/v/', '//www.youtube.com/embed/') + '" allowfullscreen="" frameborder="0"></iframe>');
+				return false
+			});
+            $('#feed-more').click(function() {
+                feed(data.nextPageToken);
+                $(this).remove();
+                return false
+            })
+        })
+    }
+
+    function relative_time(a) {
+        if (!a) {
+            return
+        }
+        a = $.trim(a);
+        a = a.replace(/\.\d\d\d+/, "");
+        a = a.replace(/-/, "/").replace(/-/, "/");
+        a = a.replace(/T/, " ").replace(/Z/, " UTC");
+        a = a.replace(/([\+\-]\d\d)\:?(\d\d)/, " $1$2");
+        var b = new Date(a);
+        var c = (arguments.length > 1) ? arguments[1] : new Date();
+        var d = parseInt((c.getTime() - b) / 1000);
+        d = (d < 2) ? 2 : d;
+        var r = '';
+        if (d < 60) {
+            r = 'jst now'
+        } else if (d < 120) {
+            r = 'a min'
+        } else if (d < (45 * 60)) {
+            r = (parseInt(d / 60, 10)).toString() + ' mins'
+        } else if (d < (2 * 60 * 60)) {
+            r = 'an hr'
+        } else if (d < (24 * 60 * 60)) {
+            r = (parseInt(d / 3600, 10)).toString() + ' hrs'
+        } else if (d < (48 * 60 * 60)) {
+            r = 'a day'
+        } else {
+            dd = (parseInt(d / 86400, 10)).toString();
+            if (dd <= 30) {
+                r = dd + ' dys'
+            } else {
+                mm = (parseInt(dd / 30, 10)).toString();
+                if (mm <= 12) {
+                    r = mm + ' mon'
+                } else {
+                    r = (parseInt(mm / 12, 10)).toString() + ' yrs'
+                }
+            }
+        }
+        return r
+    }
+	
+	function strip_tags(input, allowed) {
+		allowed = (((allowed || '') + '')
+		.toLowerCase()
+		.match(/<[a-z][a-z0-9]*>/g) || [])
+		.join('');
+		var tags = /<\/?([a-z][a-z0-9]*)\b[^>]*>/gi,
+			commentsAndPhpTags = /<!--[\s\S]*?-->|<\?(?:php)?[\s\S]*?\?>/gi;
+		return input.replace(commentsAndPhpTags, '')
+		.replace(tags, function($0, $1) {
+			return allowed.indexOf('<' + $1.toLowerCase() + '>') > -1 ? $0 : '';
+		});
+	}
+	
+	function koma(a) {
+        var b = parseInt(a, 10);
+        if (b === null) {
+            return 0
+        }
+        if (b >= 1000000000) {
+            return (b / 1000000000).toFixed(1).replace(/\.0$/, "") + "G"
+        }
+        if (b >= 1000000) {
+            return (b / 1000000).toFixed(1).replace(/\.0$/, "") + "M"
+        }
+        if (b >= 1000) {
+            return (b / 1000).toFixed(1).replace(/\.0$/, "") + "K"
+        }
+        return b
+    }
+
+    function urltag(d, e) {
+        var f = {
+            link: {
+                regex: /((^|)(https|http|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig,
+                template: "<a href='$1' target='_BLANK' class='urls'>$1</a>"
+            },
+            hash: {
+                regex: /(^|)#(\w+)/g,
+                template: '$1<a target="_BLANK" class="tags" href="https://plus.google.com/s/%23$2">#$2</a>'
+            },
+            user: {
+                regex: /(^|)\+([a-zA-Z0-9._-]+)/g,
+                template: '$1<a target="_BLANK" class="tags" href="https://plus.google.com/+$2">+$2</a>'
+            },
+            email: {
+                regex: /([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/gi,
+                template: '<a class="urls" href=\"mailto:$1\">$1</a>'
+            }
+        };
+        var g = $.extend(f, e);
+        $.each(g, function(a, b) {
+            d = d.replace(b.regex, b.template)
+        });
+        return d
+    }
+}		
+		//]]></script>
+		<script>
+			GPstream({
+				user: '+APKGvn', // +username or userID
+				key: 'AIzaSyCFNKfkHssshelZZK8VzjmUnEuslghifDA' // => you can get it in https://developers.google.com/api-client-library/python/guide/aaa_apikeys
+			});
+		</script>
+		<b:section class='main' id='main' showaddelement='yes'/>
+	</body>
+</html>
