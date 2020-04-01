@@ -181,7 +181,7 @@ jQuery(function ($) {
       }
    });
 
-   $("body").append("<a href='#' class='goup'></a>");
+   $("body").append("<a href='#' class='goup reveal_down'></a>");
    
   
    
