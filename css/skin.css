@@ -12166,6 +12166,7 @@ p {
     -o-transition: 300ms all linear;
     transition: 300ms all linear;
     cursor: pointer;
+    max-width: 50px;
 }
 .search-box-blog {
     -webkit-border-radius: 0;
