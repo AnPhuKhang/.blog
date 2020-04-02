@@ -92,8 +92,8 @@ function initMap() {
 
   //add locations
   var locations = [
-      [$('#apkmap').html(), 10.8579599, 106.6285934, 'https://anphukhang.com.vn/cdn/images/pin.png', 'Công ty TNHH Tư vấn Thiết kế Xây dựng An Phú Khang'],
-      [$('#itomap').html(), 10.7976705, 106.6584012, 'https://anphukhang.com.vn/cdn/images/pin.png', 'Công ty TNHH Kiểm toán I.T.O']
+      [$('#apkmap').html(), 10.8579599, 106.6285934, 'https://blog.anphukhang.com.vn/images/pin.png', 'Công ty TNHH Tư vấn Thiết kế Xây dựng An Phú Khang'],
+      [$('#itomap').html(), 10.7976705, 106.6584012, 'https://blog.anphukhang.com.vn/images/pin.png', 'Công ty TNHH Kiểm toán I.T.O']
       
   ];
   //declare marker call it 'i'
