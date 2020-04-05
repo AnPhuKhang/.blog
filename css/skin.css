@@ -12546,13 +12546,7 @@ p {
         border-radius: 10px;
         background: #ffffff;
     }
-    .pricing-table-inner .pricing-main-price {
-        color: #11b0cc !important;
-    }
-    .pricing-table-inner .pricing-main-price span{
-        color: #333333;
-    }
-   
+       
    /*Contact*/
    .company-contact-detail {
         text-align: center;
