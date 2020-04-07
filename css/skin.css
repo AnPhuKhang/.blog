@@ -10190,7 +10190,7 @@ p {
    font-size: 30px;
 }
 .hesperiden.tparrows.tp-rightarrow:before {
-    content: '\e649';   
+    content: '\f054';   
 }
 .hesperiden.tparrows.tp-leftarrow:before {
     content: '\e64a';
