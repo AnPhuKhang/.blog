@@ -10186,7 +10186,7 @@ p {
 }
 .hesperiden.tparrows.tp-rightarrow:before,
 .hesperiden.tparrows.tp-leftarrow:before {
-   font-family: themify;
+   font-family: "Font Awesome 5 Free";
    font-size: 30px;
 }
 .hesperiden.tparrows.tp-rightarrow:before {
