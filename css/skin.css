@@ -11723,6 +11723,14 @@ p {
     font-style: italic;
     font-size: 14px;
 }
+.cbp-divider-left {
+    display: inline;
+    padding: 0 0 0 10px;
+}
+.cbp-divider-right {
+    display: inline;
+    padding: 0 10px 0 0;
+}
 .cbp-l-filters-button .cbp-filter-item,
 .cbp-item.even{
    -webkit-transition: 300ms all ease;
