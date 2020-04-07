@@ -727,7 +727,7 @@ jQuery(function ($) {
             loadMore: {
                element: "#js-loadMore-lightbox-gallery",
                action: "click",
-               loadItems: 5,
+               loadItems: 15,
             }
          }
 
