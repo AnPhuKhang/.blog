@@ -11769,12 +11769,12 @@ p {
     margin-top: 45px;
 }
 #js-loadMore-lightbox-gallery.active {
-    margin-top: -180px;
+    margin-top: -20px;
     position: relative;
     z-index: 1;
 }
 #js-loadMore-lightbox-gallery.active-outer {
-    margin-top: -250px;
+    margin-top: -100px;
 }
 
 
