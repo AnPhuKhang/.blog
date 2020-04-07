@@ -775,6 +775,9 @@ jQuery(function ($) {
             $("#js-loadMore-lightbox-gallery").removeClass("active");
             $("#js-loadMore-lightbox-gallery").addClass("d-none");
          }
+         
+         alert("a");
+         
          $this.find(".cbp-wrapper").find(".cbp-item:not(.cbp-item-off)").each(function (index) {
             $(this).removeClass("even");
             var val = index + 1;
