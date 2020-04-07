@@ -479,7 +479,7 @@ jQuery(function ($) {
    if ($("body").hasClass("index-one")) {
       jQuery("#main-slider-four").show().revolution({
          sliderType: "standard",
-         jsFileLocation: "//blog.anphukhang.com.vn/js/",
+         jsFileLocation: "//js/",
          sliderLayout: "fullscreen",
          dottedOverlay: "none",
          delay: 9000,
