@@ -490,7 +490,7 @@ jQuery(function ($) {
             mouseScrollReverse: "default",
             onHoverStop: "off",
             arrows: {
-               style: "hesperiden",
+               style: "hesperiden fas",
                enable: true,
                hide_onmobile: false,
                hide_onleave: false,
