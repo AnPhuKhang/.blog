@@ -8690,6 +8690,10 @@ p {
     background: #0c6c9e;
     border: 1px solid #0c6c9e;
 }
+.blog-listing-footer-inner-socialicons ul li a.googleplus {
+    background: #d34836;
+    border: 1px solid #d34836;
+}
 .blog-listing-footer-inner-socialicons ul li a.facebook:hover {
     background: transparent;
     color: #204d74;
@@ -8701,6 +8705,10 @@ p {
 .blog-listing-footer-inner-socialicons ul li a.linkedin:hover {
     background: transparent;
     color: #0c6c9e;
+}
+.blog-listing-footer-inner-socialicons ul li a.googleplus:hover {
+    background: transparent;
+    color: #d34836;
 }
 .search-button-blog {
     position: absolute;
