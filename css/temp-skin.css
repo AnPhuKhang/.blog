@@ -374,9 +374,9 @@ website:    http://www.themepunch.com
 
 /* Table Of Contact End */
 
-/* @font-Family Inclusion links Opensans + Montserrat */
+/* @font-Family Inclusion links Opensans + Roboto */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900|Open+Sans:300,400,600,700,800');
 
 /* Global Styling + Helper Classes */
 
@@ -421,7 +421,7 @@ p {
     padding: 0;
 }
 .fontface-one{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .fontface-two{
     font-family: 'Open Sans', sans-serif;
@@ -690,7 +690,7 @@ p {
 	color: #fff;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	-webkit-transition: color 300ms ease-in-out, -webkit-box-shadow 400ms ease-in-out !important;
 	transition: color 300ms ease-in-out, -webkit-box-shadow 400ms ease-in-out !important;
 	-o-transition: box-shadow 400ms ease-in-out, color 300ms ease-in-out !important;
@@ -1294,7 +1294,7 @@ p {
     padding: 0 28px !important;
     font-size: 14px;
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #333;
 }
 .navbar-transparent-white .navbar-nav .nav-link {
@@ -1567,7 +1567,7 @@ p {
    color: #333;
    font-weight: 600;
    margin: 15px 0;
-   font-family: 'Montserrat', sans-serif;                                                                          
+   font-family: 'Roboto', sans-serif;                                                                          
 }
 .side-nav.full-nav .side-nav-list li > a {
    color: #fff;
@@ -2438,7 +2438,7 @@ p {
 
 .cbp-l-caption-title {
     color: #ffffff !important;
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Roboto', sans-serif !important;
     font-weight: 400 !important;
     font-size: 15px !important;
 }
