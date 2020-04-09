@@ -418,6 +418,9 @@ p {
     margin: 0;
     padding: 0;
 }
+.fontface-primary{
+    font-family: 'Roboto', Arial;
+}
 .fontface-one{
     font-family: 'Open Sans', sans-serif;
 }
@@ -1937,7 +1940,7 @@ p {
 }
 .main-slider-detail-text {
     font-size: 20px !important;
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Roboto', Arial !important;
     font-weight: 300 !important;
     line-height: 30px !important;
 }
