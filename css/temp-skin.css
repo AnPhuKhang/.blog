@@ -2691,6 +2691,12 @@ p {
 	margin: 0 auto;
 	top: 0;
 }
+.blog-section .blog-picture.center {
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center
+}
 .blog-section .blog-picture.left{
    left: 0;
    right: auto;
@@ -2720,12 +2726,6 @@ p {
 
 .blog-picture > img {
    width: 100%;
-}
-.blog-picture .center{
-   height: 100%;
-   display: flex;
-   align-items: center;
-   justify-content: center
 }
 .blog-listing-inner ,
 .blog-widgets-outer ,
