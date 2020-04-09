@@ -2721,6 +2721,11 @@ p {
 .blog-picture > img {
    width: 100%;
 }
+.blog-picture .center > img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
 .blog-listing-inner ,
 .blog-widgets-outer ,
 .blog-detail-page-inner,
