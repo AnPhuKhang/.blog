@@ -158,7 +158,7 @@ $(document).ready(function() {
 
     //Blog post Modal
     $('.open-post').on('click', function() {
-        var postUrl = $(this).attr("href");
+        var postUrl = $(this).attr("href") + " #post-item";
         $('.inline-menu-container').removeClass('showx');
         $('.sidebar-menu').addClass('hidex');
         $('.content-blocks.pop').addClass('showx');
