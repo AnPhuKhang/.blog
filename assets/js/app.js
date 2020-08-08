@@ -5448,8 +5448,8 @@ var LottieAnimations = /*#__PURE__*/function () {
       loop: false,
       autoplay: false,
       speed: 2,
-      //path: path + '/data.json' // the path to the animation json
-      path: 'https://www.vanca.art/assets/js/data.json' // the path to the animation json
+      path: path + '/data.json' // the path to the animation json
+      //path: 'https://www.vanca.art/assets/js/data.json' // the path to the animation json
 
     });
     $nav.addEventListener('mouseenter', function () {
@@ -5472,7 +5472,7 @@ var LottieAnimations = /*#__PURE__*/function () {
         renderer: 'svg',
         loop: false,
         autoplay: false,
-        path: "https://www.vanca.art/assets/js/".concat(this.reactId, ".json") // the path to the animation json
+        path: "assets/js/".concat(this.reactId, ".json") // the path to the animation json
 
       });
       this.reactId + 1 == 6 ? this.reactId = 1 : this.reactId++;
