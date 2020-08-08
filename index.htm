@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113302800-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-113302800-2');
+    </script>
+
+    <!-- COMMON TAGS -->
+    <meta charset="utf-8">
+    <title>Adrien Vanca - Motion Designer & Art Director</title>
+    <!-- Search Engine -->
+    <meta name="description" content="I'm Adrien Vanca, a freelance motion designer and art director based in Paris. Come and get a sneak peek of who I am on this portfolio.">
+    <meta name="image" content="og_image.png">
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="Vanca.art">
+    <meta name="description" content="I'm Adrien Vanca, a freelance motion designer and art director based in Paris. Come and get a sneak peek of who I am on this portfolio.">
+    <meta itemprop="image" content="https://t.info.vn/o_gimage.png">
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="Vanca.art">
+    <meta name="description" content="I'm Adrien Vanca, a freelance motion designer and art director based in Paris. Come and get a sneak peek of who I am on this portfolio.">
+    <meta name="og:image" content="og_image.png">
+    <meta name="og:url" content="https://t.info.vn">
+    <meta name="og:site_name" content="Vanca.art">
+    <meta name="og:type" content="website">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adrien Vanca</title>
+    
+    <style>
+    @keyframes thinking{
+        0% {transform: rotate(0deg) translateX(0px);}
+        5%, 15%{transform: rotate(-40deg) translateX(25px);}
+        20%, 30%{transform: rotate(-115deg) translateX(15px);}
+        35%, 45%{transform: rotate(-40deg) translateX(25px);}
+        50%, 60%{transform: rotate(-115deg) translateX(15px);}
+        65% {transform: rotate(-180deg) translateX(0px);}
+    }
+
+    .loader{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        z-index: 900;
+        opacity: 1;
+        transition: opacity 0.3s ease;
+    }
+
+    .loader-logo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 264px;
+        width: 264px;
+    }
+
+    .loader-logo img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 264px;
+        width: 264px;
+     }
+
+    .loader-logo .js-eyeballs{
+        top: 142px;
+        left: 88px;
+        height: 10px;
+        width: 10px;
+        will-change: transform;
+
+        animation: 12s ease infinite thinking;
+    }
+
+    .loader-logo .js-eyeballs:nth-child(3){
+        left: 178px;
+    }
+    </style>
+    <script>
+        document.addEventListener('readystatechange', function(){
+            if(document.readyState == "complete"){
+                document.querySelector('.loader').style.opacity=0
+                window.setTimeout(function(){
+                    document.querySelector('.loader').style.display="none"
+                }, 400);
+            }
+        })
+    </script>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body data-barba="wrapper">
+    <div class="loader">
+        <div class="loader-logo">
+            <img src="assets/images/logo_web_eyeless.svg">
+            <img class="js-eyeballs" src="assets/images/logo_web_eyeball.svg">
+            <img class="js-eyeballs" src="assets/images/logo_web_eyeball.svg">
+        </div>
+    </div>
+    <nav>
+        <a class="nav-logo" href="/" title="t.info.vn home">
+        <a class="burger" href="/work" title="Adrien Vanca motion design showreel and work">
+            <img src="assets/images/Chevron_Black.svg">
+            <span> My showreel</span>
+        </a>
+    </nav>
+        
+
+<main data-barba="container" data-barba-namespace="home">
+
+<header class="mobile-header">
+    <img src="assets/images/mobile_header.svg" alt="Adrien Vanca Logotype">   
+</header>
+
+<section class="menu">
+    <div class="sektors">
+        <div class="sektor"></div>
+        <div class="sektor"></div>
+        <div class="sektor"></div>
+    </div>
+    <ul class="link-box active">
+        <li class="bold link">
+            <a href="work" title="Adrien Vanca showreel">
+                <img src="assets/images/Chevron_Blue.svg">
+                <span class="title">Watch my showreel</span>
+            </a>
+        </li>
+        <li class="link">
+            <a href="orba-commercial.htm" title="Orba commercial case study by Adrien Vanca">
+                <span class="icon"><img src="assets/images/work/or_icon.png" alt="Orba icon"></span>
+                <span class="title">Orba Commercial</span>
+                <img class="arrow" src="assets/images/Sm_Arrow/Blue.svg">
+                <br/>
+                <span class="caption">Motion Design & Art direction</span>
+            </a>
+        </li>
+        <li class="link">
+            <a href="livefarms.htm" title="livefarms case study by Adrien Vanca">
+                <span class="icon"><img src="assets/images/work/nl_icon.png" alt="Plant icon"></span>
+                <span class="title">Nespresso Livefarms</span>
+                <img class="arrow" src="assets/images/Sm_Arrow/Blue.svg">
+                <br/>
+                <span class="caption">Motion Design</span>
+            </a>
+        </li>
+        <li class="link">
+            <a href="flying-whales.htm" title="Flying Whales branding case study by Adrien Vanca">
+                <span class="icon"><img src="assets/images/work/fw_icon.png" alt="Whale icon"></span>
+                <span class="title">Flying Whales</span>
+                <img class="arrow" src="assets/images/Sm_Arrow/Blue.svg">
+                <br/>
+                <span class="caption">Brand Identity</span>
+            </a>
+        </li>
+        <li class="link">
+            <a href="chateau-perche.htm" title="Château Perché branding case study by Adrien Vanca">
+                <span class="icon"><img src="assets/images/work/cp_icon.png" alt="Castle icon"></span>
+                <span class="title">Château Perché</span>
+                <img class="arrow" src="assets/images/Sm_Arrow/Blue.svg">
+                <br/>
+                <span class="caption">Brand Identity</span>
+            </a>
+        </li>
+        <li class="link">
+            <a href="gallery.htm" title="Adrien Vanca visual gallery">
+                <span class="icon"><img src="assets/images/work/sh_icon.png" alt="Art icon"></span>
+                <span class="title">Gallery</span>
+                <img class="arrow" src="assets/images/Sm_Arrow/Blue.svg">
+                <br/>
+                <span class="caption">Visual Design</span>
+            </a>
+        </li>
+    </ul>
+    <ul class="link-box" style="display:none">
+        <li class="link">
+            <a href="about" title="about Adrien Vanca, visual designer and art director">
+                <span class="icon"><img src="assets/images/work/ab_icon.png" alt="Waving hand icon"></span>
+                <span class="title">Get to know me</span>
+                <img class="arrow" src="assets/images/Sm_Arrow/Red.svg">
+                <br/>
+                <span class="caption">A sneak peek of who I am</span>
+            </a>
+        </li>
+        <li class="link">
+            <a href="tools" title="Curated creative ressources">
+                <span class="icon"><img src="assets/images/work/to_icon.png" alt="Tools icon"></span>
+                <span class="title">Stuff and tools</span>
+                <img class="arrow" src="assets/images/Sm_Arrow/Red.svg">
+                <br/>
+                <span class="caption">Cool things handpicked on the web</span>
+            </a>
+        </li>
+        <li class="bold link">
+            <a target="_blank" href="abc.pdf" title="Adrien Vande Casteele's resume">
+                <img src="assets/images/resume_icon.svg">
+                <span class="title">View my resume</span>
+            </a>
+        </li>
+    </ul>
+    <ul class="link-box" style="display:none">
+        <li class="link">
+            <a target="_blank" href="https://www.instagram.com/apk.com.vn/" title="Adrien Vanca on instagram">
+                <span class="icon"><img src="assets/images/work/in_icon.png" alt="Instagram icon"></span>
+                <span class="title">Instagram</span>
+                <img class="arrow" src="assets/images/Sm_Arrow/Yellow.svg">
+                <br/>
+                <span class="caption">@t.info.vn</span>
+            </a>
+        </li>
+        <li class="link">
+            <a target="_blank" href="https://dribbble.com/AnPhuKhang" title="Adrien Vanca on dribbble">
+                <span class="icon"><img src="assets/images/work/dr_icon.png" alt="Dribbble icon"></span>
+                <span class="title">Dribbble</span>
+                <img class="arrow" src="assets/images/Sm_Arrow/Yellow.svg">
+                <br/>
+                <span class="caption">@AnPhuKhang</span>
+            </a>
+        </li>
+        <li class="link">
+            <a target="_blank" href="https://www.behance.net/AnPhuKhang" title="Adrien Vande Casteele on Behance">
+                <span class="icon"><img src="assets/images/work/be_icon.png" alt="Behance icon"></span>
+                <span class="title">Behance</span>
+                <img class="arrow" src="assets/images/Sm_Arrow/Yellow.svg">
+                <br/>
+                <span class="caption">@AnPhuKhang</span>
+            </a>
+        </li>
+        <li class="link">
+            <a target="_blank" href="https://www.linkedin.com/in/adrien-vande-casteele/" title="Adrien Vande Casteele on Linkedin">
+                <span class="icon"><img src="assets/images/work/li_icon.png" alt="Linkedin icon"></span>
+                <span class="title">LinkedIn</span>
+                <img class="arrow" src="assets/images/Sm_Arrow/Yellow.svg">
+                <br/>
+                <span class="caption">Adrien Vande Casteele</span>
+            </a>
+        </li>
+        <li class="bold link">
+            <a href="mailto:info@apk.co" title="Drop an email to Adrien Vande Casteele">
+                <img src="assets/images/mail.svg">
+                <span class="title">Drop me an e-mail</span>
+            </a>
+        </li>
+    </ul>
+    <div class="main-logo">
+        <img src="assets/images/logo_web_eyeless.svg">
+        <img class="js-eyeballs" src="assets/images/logo_web_eyeball.svg">
+        <img class="js-eyeballs" src="assets/images/logo_web_eyeball.svg">
+    </div>
+    <img src="assets/images/adrienvancabold.svg" alt="Adrien Vanca bold logotype" class="adrienvanca">
+
+</section>
+<footer id="footer">
+        <div>
+            <h1>Welcome to my portfolio!</h1>
+            <h2>I’m Adrien Vande Casteele, visual designer and art director.</h2>
+        </div>
+        <div>
+            <li class="bold link">
+                <a href="mailto:info@apk.co" title="Drop an email to Adrien Vande Casteele">
+                    <img src="assets/images/mail.svg">
+                    <span class="title">Drop me an e-mail</span>
+                </a>
+            </li>
+            <p>Proudly developed by hand</p>
+        </div>
+</footer>
+
+</main>
+
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
