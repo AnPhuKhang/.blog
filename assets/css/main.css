@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -44,26 +46,6 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
-
-@font-face {
-  font-family: "Okta";
-  src: url("../fonts/Okta_Black.otf") format("opentype");
-  font-weight: 900; }
-
-@font-face {
-  font-family: "Okta";
-  src: url("../fonts/Okta_Bold.otf") format("opentype");
-  font-weight: 700; }
-
-@font-face {
-  font-family: "Okta";
-  src: url("../fonts/Okta_Regular.otf") format("opentype");
-  font-weight: 500; }
-
-@font-face {
-  font-family: "Okta";
-  src: url("../fonts/Okta_Normal.otf") format("opentype");
-  font-weight: 400; }
 
 section.menu {
   position: relative;
@@ -1603,7 +1585,7 @@ nav {
 
 body {
   background: white;
-  font-family: 'Okta', Helvetica, sans-serif;
+  font-family: 'Roboto', Helvetica, sans-serif;
   font-size: 17px;
   font-smooth: always;
   -webkit-font-smoothing: antialiased;

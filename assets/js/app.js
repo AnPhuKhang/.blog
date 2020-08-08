@@ -5449,7 +5449,6 @@ var LottieAnimations = /*#__PURE__*/function () {
       autoplay: false,
       speed: 2,
       path: path + '/data.json' // the path to the animation json
-      //path: 'https://www.vanca.art/assets/js/data.json' // the path to the animation json
 
     });
     $nav.addEventListener('mouseenter', function () {
@@ -5472,7 +5471,7 @@ var LottieAnimations = /*#__PURE__*/function () {
         renderer: 'svg',
         loop: false,
         autoplay: false,
-        path: "assets/js/".concat(this.reactId, ".json") // the path to the animation json
+        path: "https://blog.anphukhang.com.vn/assets/js/".concat(this.reactId, ".json") // the path to the animation json
 
       });
       this.reactId + 1 == 6 ? this.reactId = 1 : this.reactId++;
@@ -5803,7 +5802,7 @@ var RecSektor = /*#__PURE__*/function () {
         return d;
       }
 
-      return "\n    <g class='group'>\n    <path\n      class='Sektor-sector'\n      id='curve'\n      stroke-width='".concat(options.stroke, "px'\n      fill=").concat(sectorFill, "\n      stroke=").concat(sectorStroke, "\n      d='").concat(d, "' />\n    <style>\n    text { \n        font-size: 26px;\n        font-family: 'Okta', sans-serif;\n        font-weight: 700; \n        letter-spacing: 0px;\n    }\n    </style>\n    <text class='text' x='2' y='24' transform=\"rotate(90 2,24) translate(").concat(options.rotate, ")\">\n          ").concat(options.text, "\n    </text>\n    </g>");
+      return "\n    <g class='group'>\n    <path\n      class='Sektor-sector'\n      id='curve'\n      stroke-width='".concat(options.stroke, "px'\n      fill=").concat(sectorFill, "\n      stroke=").concat(sectorStroke, "\n      d='").concat(d, "' />\n    <style>\n    text { \n        font-size: 26px;\n        font-family: 'Roboto', sans-serif;\n        font-weight: 700; \n        letter-spacing: 0px;\n    }\n    </style>\n    <text class='text' x='2' y='24' transform=\"rotate(90 2,24) translate(").concat(options.rotate, ")\">\n          ").concat(options.text, "\n    </text>\n    </g>");
     }
   }]);
 
@@ -5942,7 +5941,7 @@ var Sektor = /*#__PURE__*/function () {
         return d;
       }
 
-      return "\n    <g class='group' transform='rotate(".concat(options.rotate, ",").concat(options.center, ",").concat(options.center, ")'>\n    <path\n      class='Sektor-sector'\n      id='curve'\n      stroke-width='").concat(options.stroke, "'\n      fill=").concat(sectorFill, "\n      stroke=").concat(sectorStroke, "\n      d='").concat(d, "' />\n    <style>\n    text { \n        font-size: 26px;\n        font-family: 'Okta', sans-serif;\n        font-weight: 700; \n        letter-spacing: 0px;\n    }\n    </style>\n    <text dx=\"4\" dy=\"2\">\n        <textPath xlink:href=\"#curve\">\n            ").concat(options.text, "\n        </textPath>\n    </text>\n    </g>");
+      return "\n    <g class='group' transform='rotate(".concat(options.rotate, ",").concat(options.center, ",").concat(options.center, ")'>\n    <path\n      class='Sektor-sector'\n      id='curve'\n      stroke-width='").concat(options.stroke, "'\n      fill=").concat(sectorFill, "\n      stroke=").concat(sectorStroke, "\n      d='").concat(d, "' />\n    <style>\n    text { \n        font-size: 26px;\n        font-family: 'Roboto', sans-serif;\n        font-weight: 700; \n        letter-spacing: 0px;\n    }\n    </style>\n    <text dx=\"4\" dy=\"2\">\n        <textPath xlink:href=\"#curve\">\n            ").concat(options.text, "\n        </textPath>\n    </text>\n    </g>");
     }
   }, {
     key: "getCircle",
