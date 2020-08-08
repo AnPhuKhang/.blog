@@ -185,7 +185,7 @@ var BarbaInit = function BarbaInit() {
         }
       }
     }, {
-      namespace: 'work',
+      namespace: 'p',
       afterEnter: function afterEnter(data) {
         gsap.to(nav, {
           ease: "power4.out",
