@@ -5448,7 +5448,7 @@ var LottieAnimations = /*#__PURE__*/function () {
       loop: false,
       autoplay: false,
       speed: 2,
-      path: path + '/data.json' // the path to the animation json
+      path: 'https://blog.anphukhang.com.vn/assets/js/data.json' // the path to the animation json
 
     });
     $nav.addEventListener('mouseenter', function () {
