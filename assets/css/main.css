@@ -15,7 +15,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
+menus, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -26,7 +26,7 @@ time, mark, audio, video {
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menus, nav, section {
   display: block; }
 
 body {
@@ -47,11 +47,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-section.menu {
+section.menus {
   position: relative;
   height: 100vh;
   width: 100%; }
-  section.menu .sektors {
+  section.menus .sektors {
     height: 640px;
     width: 640px;
     position: absolute;
@@ -59,7 +59,7 @@ section.menu {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%); }
-  section.menu .sektor {
+  section.menus .sektor {
     height: 640px;
     width: 640px;
     position: absolute;
@@ -68,11 +68,11 @@ section.menu {
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     pointer-events: none; }
-    section.menu .sektor svg, section.menu .sektor circle {
+    section.menus .sektor svg, section.menus .sektor circle {
       pointer-events: none; }
-    section.menu .sektor g {
+    section.menus .sektor g {
       pointer-events: all; }
-  section.menu .main-logo {
+  section.menus .main-logo {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -80,21 +80,21 @@ section.menu {
             transform: translate(-50%, -50%);
     height: 264px;
     width: 264px; }
-    section.menu .main-logo img {
+    section.menus .main-logo img {
       position: absolute;
       top: 0;
       left: 0;
       height: 264px;
       width: 264px; }
-    section.menu .main-logo .js-eyeballs {
+    section.menus .main-logo .js-eyeballs {
       top: 132px;
       left: 95px;
       height: 10px;
       width: 10px;
       will-change: transform; }
-      section.menu .main-logo .js-eyeballs:nth-child(3) {
+      section.menus .main-logo .js-eyeballs:nth-child(3) {
         left: 185px; }
-  section.menu .adrienvanca {
+  section.menus .adrienvanca {
     position: absolute;
     top: calc(50% + 100px);
     left: calc(50% - 300px);
@@ -102,34 +102,34 @@ section.menu {
     /*top: 40px;
         left: 40px;
         height: 40px;*/ }
-  section.menu .link-box {
+  section.menus .link-box {
     width: 100%;
     position: absolute;
     left: calc(50% + 315px);
     top: calc(50% - 270px); }
-    section.menu .link-box.active .link {
+    section.menus .link-box.active .link {
       opacity: 1;
       -webkit-transform: translateX(0);
               transform: translateX(0); }
-      section.menu .link-box.active .link:nth-child(1) {
+      section.menus .link-box.active .link:nth-child(1) {
         -webkit-transition-delay: 0s;
                 transition-delay: 0s; }
-      section.menu .link-box.active .link:nth-child(2) {
+      section.menus .link-box.active .link:nth-child(2) {
         -webkit-transition-delay: .1s;
                 transition-delay: .1s; }
-      section.menu .link-box.active .link:nth-child(3) {
+      section.menus .link-box.active .link:nth-child(3) {
         -webkit-transition-delay: .2s;
                 transition-delay: .2s; }
-      section.menu .link-box.active .link:nth-child(4) {
+      section.menus .link-box.active .link:nth-child(4) {
         -webkit-transition-delay: .3s;
                 transition-delay: .3s; }
-      section.menu .link-box.active .link:nth-child(5) {
+      section.menus .link-box.active .link:nth-child(5) {
         -webkit-transition-delay: .4s;
                 transition-delay: .4s; }
-      section.menu .link-box.active .link:nth-child(6) {
+      section.menus .link-box.active .link:nth-child(6) {
         -webkit-transition-delay: .5s;
                 transition-delay: .5s; }
-    section.menu .link-box .link {
+    section.menus .link-box .link {
       position: relative;
       font-size: 17px;
       line-height: 15px;
@@ -143,27 +143,27 @@ section.menu {
       transition: transform .3s ease-out, opacity .3s ease-out;
       transition: transform .3s ease-out, opacity .3s ease-out, -webkit-transform .3s ease-out;
       will-change: transform; }
-      section.menu .link-box .link a {
+      section.menus .link-box .link a {
         display: inline-block;
         will-change: transform;
         -webkit-transition: -webkit-transform 0.4s ease-in-out;
         transition: -webkit-transform 0.4s ease-in-out;
         transition: transform 0.4s ease-in-out;
         transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out; }
-        section.menu .link-box .link a:hover {
+        section.menus .link-box .link a:hover {
           -webkit-transform: translateX(15px);
                   transform: translateX(15px); }
-          section.menu .link-box .link a:hover .title::before {
+          section.menus .link-box .link a:hover .title::before {
             -webkit-transform: scaleX(1);
                     transform: scaleX(1); }
-          section.menu .link-box .link a:hover .arrow {
+          section.menus .link-box .link a:hover .arrow {
             -webkit-transform: translate(10px);
                     transform: translate(10px); }
-      section.menu .link-box .link .title {
+      section.menus .link-box .link .title {
         font-weight: 500;
         position: relative;
         display: inline-block; }
-        section.menu .link-box .link .title::before {
+        section.menus .link-box .link .title::before {
           content: '';
           position: absolute;
           top: -2px;
@@ -182,28 +182,28 @@ section.menu {
           -webkit-transform: scaleX(0);
                   transform: scaleX(0);
           will-change: transform; }
-      section.menu .link-box .link .arrow {
+      section.menus .link-box .link .arrow {
         -webkit-transition: -webkit-transform 0.3s ease-out 0.2s;
         transition: -webkit-transform 0.3s ease-out 0.2s;
         transition: transform 0.3s ease-out 0.2s;
         transition: transform 0.3s ease-out 0.2s, -webkit-transform 0.3s ease-out 0.2s;
         will-change: transform; }
-      section.menu .link-box .link .icon {
+      section.menus .link-box .link .icon {
         width: 24px;
         height: 24px;
         text-align: center;
         position: absolute;
         right: calc(100% + 8px);
         top: -5px; }
-        section.menu .link-box .link .icon img {
+        section.menus .link-box .link .icon img {
           width: 22px;
           height: 22px; }
-      section.menu .link-box .link .caption {
+      section.menus .link-box .link .caption {
         font-size: 10px;
         font-weight: 700;
         color: #7D828C;
         text-transform: uppercase; }
-      section.menu .link-box .link.bold {
+      section.menus .link-box .link.bold {
         display: inline-block;
         height: 32px;
         border-radius: 16px;
@@ -214,167 +214,167 @@ section.menu {
                 box-sizing: border-box;
         padding: 6px 12px;
         margin: 0 0 34px 0; }
-        section.menu .link-box .link.bold a {
+        section.menus .link-box .link.bold a {
           display: inline; }
-        section.menu .link-box .link.bold .title {
+        section.menus .link-box .link.bold .title {
           line-height: 18px;
           font-weight: 700;
           color: #567DF8; }
-          section.menu .link-box .link.bold .title::before {
+          section.menus .link-box .link.bold .title::before {
             content: none; }
-        section.menu .link-box .link.bold:hover {
+        section.menus .link-box .link.bold:hover {
           background: #567DF8; }
-          section.menu .link-box .link.bold:hover .title {
+          section.menus .link-box .link.bold:hover .title {
             color: #fff; }
-          section.menu .link-box .link.bold:hover img {
+          section.menus .link-box .link.bold:hover img {
             -webkit-filter: brightness(10);
                     filter: brightness(10); }
-      section.menu .link-box .link:nth-child(1) {
+      section.menus .link-box .link:nth-child(1) {
         left: -175px;
         -webkit-transition-delay: 0s;
                 transition-delay: 0s; }
-      section.menu .link-box .link:nth-child(2) {
+      section.menus .link-box .link:nth-child(2) {
         left: -75px;
         -webkit-transition-delay: .1s;
                 transition-delay: .1s; }
-      section.menu .link-box .link:nth-child(3) {
+      section.menus .link-box .link:nth-child(3) {
         left: -30px;
         -webkit-transition-delay: .2s;
                 transition-delay: .2s; }
-      section.menu .link-box .link:nth-child(4) {
+      section.menus .link-box .link:nth-child(4) {
         left: -5px;
         -webkit-transition-delay: .3s;
                 transition-delay: .3s; }
-      section.menu .link-box .link:nth-child(5) {
+      section.menus .link-box .link:nth-child(5) {
         left: 0px;
         -webkit-transition-delay: .4s;
                 transition-delay: .4s; }
-      section.menu .link-box .link:nth-child(6) {
+      section.menus .link-box .link:nth-child(6) {
         left: -9px;
         -webkit-transition-delay: .5s;
                 transition-delay: .5s; }
-    section.menu .link-box:nth-of-type(2) {
+    section.menus .link-box:nth-of-type(2) {
       top: 50%;
       -webkit-transform: translateY(-50%);
               transform: translateY(-50%); }
-      section.menu .link-box:nth-of-type(2) .link .title::before {
+      section.menus .link-box:nth-of-type(2) .link .title::before {
         background: #E63E33; }
-      section.menu .link-box:nth-of-type(2) .link.bold {
+      section.menus .link-box:nth-of-type(2) .link.bold {
         border-color: #E63E33;
         margin-bottom: 0; }
-        section.menu .link-box:nth-of-type(2) .link.bold img {
+        section.menus .link-box:nth-of-type(2) .link.bold img {
           height: 14px;
           position: relative;
           top: 1px; }
-        section.menu .link-box:nth-of-type(2) .link.bold .title {
+        section.menus .link-box:nth-of-type(2) .link.bold .title {
           color: #E63E33; }
-        section.menu .link-box:nth-of-type(2) .link.bold:hover {
+        section.menus .link-box:nth-of-type(2) .link.bold:hover {
           background: #E63E33; }
-          section.menu .link-box:nth-of-type(2) .link.bold:hover .title {
+          section.menus .link-box:nth-of-type(2) .link.bold:hover .title {
             color: #fff; }
-      section.menu .link-box:nth-of-type(2) .link:nth-child(1) {
+      section.menus .link-box:nth-of-type(2) .link:nth-child(1) {
         left: -10px;
         -webkit-transition-delay: 0s;
                 transition-delay: 0s; }
-      section.menu .link-box:nth-of-type(2) .link:nth-child(2) {
+      section.menus .link-box:nth-of-type(2) .link:nth-child(2) {
         left: -0px;
         -webkit-transition-delay: .1s;
                 transition-delay: .1s;
         margin-bottom: 32px; }
-      section.menu .link-box:nth-of-type(2) .link:nth-child(3) {
+      section.menus .link-box:nth-of-type(2) .link:nth-child(3) {
         left: -35px;
         -webkit-transition-delay: .2s;
                 transition-delay: .2s; }
-    section.menu .link-box:nth-of-type(3) {
+    section.menus .link-box:nth-of-type(3) {
       top: auto;
       bottom: calc(50% - 306px); }
-      section.menu .link-box:nth-of-type(3) .link .title::before {
+      section.menus .link-box:nth-of-type(3) .link .title::before {
         background: #EF9B3A; }
-      section.menu .link-box:nth-of-type(3) .link.bold {
+      section.menus .link-box:nth-of-type(3) .link.bold {
         border-color: #EF9B3A; }
-        section.menu .link-box:nth-of-type(3) .link.bold img {
+        section.menus .link-box:nth-of-type(3) .link.bold img {
           height: 15px;
           position: relative;
           top: 2px; }
-        section.menu .link-box:nth-of-type(3) .link.bold .title {
+        section.menus .link-box:nth-of-type(3) .link.bold .title {
           color: #EF9B3A; }
-        section.menu .link-box:nth-of-type(3) .link.bold:hover {
+        section.menus .link-box:nth-of-type(3) .link.bold:hover {
           background: #EF9B3A; }
-          section.menu .link-box:nth-of-type(3) .link.bold:hover .title {
+          section.menus .link-box:nth-of-type(3) .link.bold:hover .title {
             color: #fff; }
-      section.menu .link-box:nth-of-type(3) .link:nth-child(1) {
+      section.menus .link-box:nth-of-type(3) .link:nth-child(1) {
         left: -0px;
         -webkit-transition-delay: 0s;
                 transition-delay: 0s; }
-      section.menu .link-box:nth-of-type(3) .link:nth-child(2) {
+      section.menus .link-box:nth-of-type(3) .link:nth-child(2) {
         left: -2px;
         -webkit-transition-delay: .1s;
                 transition-delay: .1s; }
-      section.menu .link-box:nth-of-type(3) .link:nth-child(3) {
+      section.menus .link-box:nth-of-type(3) .link:nth-child(3) {
         left: -20px;
         -webkit-transition-delay: .2s;
                 transition-delay: .2s; }
-      section.menu .link-box:nth-of-type(3) .link:nth-child(4) {
+      section.menus .link-box:nth-of-type(3) .link:nth-child(4) {
         left: -60px;
         -webkit-transition-delay: .3s;
                 transition-delay: .3s;
         margin-bottom: 32px; }
-      section.menu .link-box:nth-of-type(3) .link:nth-child(5) {
+      section.menus .link-box:nth-of-type(3) .link:nth-child(5) {
         left: -155px;
         -webkit-transition-delay: .4s;
                 transition-delay: .4s; }
   @media screen and (min-width: 1800px) and (min-height: 1000px) {
-    section.menu {
+    section.menus {
       -webkit-transform: scale(1.2);
               transform: scale(1.2); } }
   @media screen and (min-width: 2200px) and (min-height: 1200px) {
-    section.menu {
+    section.menus {
       -webkit-transform: scale(1.4);
               transform: scale(1.4); } }
   @media screen and (max-width: 949px) {
-    section.menu {
+    section.menus {
       -webkit-transform: scale(0.9);
               transform: scale(0.9); } }
   @media screen and (max-width: 849px) {
-    section.menu {
+    section.menus {
       -webkit-transform: scale(0.8);
               transform: scale(0.8); } }
   @media screen and (max-width: 749px) {
-    section.menu {
+    section.menus {
       -webkit-transform: scale(0.7);
               transform: scale(0.7); } }
   @media screen and (max-width: 649px) {
-    section.menu {
+    section.menus {
       -webkit-transform: scale(1);
               transform: scale(1);
       width: 80%;
       margin: 0 auto;
       height: 680px; }
-      section.menu .main-logo, section.menu .adrienvanca {
+      section.menus .main-logo, section.menus .adrienvanca {
         display: none; }
-      section.menu .link-box {
+      section.menus .link-box {
         width: 100%;
         position: absolute;
         left: 60px;
         top: 18px; }
-        section.menu .link-box .link {
+        section.menus .link-box .link {
           position: static; }
-          section.menu .link-box .link.bold {
+          section.menus .link-box .link.bold {
             position: relative;
             left: -30px !important; }
-        section.menu .link-box:nth-of-type(2) {
+        section.menus .link-box:nth-of-type(2) {
           top: 150px;
           -webkit-transform: none;
                   transform: none; }
-        section.menu .link-box:nth-of-type(3) {
+        section.menus .link-box:nth-of-type(3) {
           top: 280px; }
-      section.menu .sektors {
+      section.menus .sektors {
         width: 100%;
         top: 0;
         left: 0;
         -webkit-transform: none;
                 transform: none; }
-      section.menu .sektor {
+      section.menus .sektor {
         width: calc(100% + 20px);
         top: 0;
         left: -10px;
