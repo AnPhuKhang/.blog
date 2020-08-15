@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 
@@ -933,132 +934,6 @@ template {
 		display: flex
 	}
 }
-@font-face{font-family:Graphik;src:url(../fonts/Graphik-SuperItalic-Web.woff2) format("woff2"),
-url(../fonts/Graphik-SuperItalic-Web.woff) format("woff");
-font-weight:900;
-font-style:italic;
-font-stretch:normal;
-font-display:swap
-}
-@font-face{font-family:Graphik;src:url(../fonts/Graphik-Super-Web.woff2) format("woff2"),
-url(../fonts/Graphik-Super-Web.woff) format("woff");
-font-weight:900;
-font-style:normal;
-font-stretch:normal;
-font-display:swap
-}
-@font-face{font-family:Graphik;src:url(../fonts/Graphik-BlackItalic-Web.woff2) format("woff2"),
-url(../fonts/Graphik-BlackItalic-Web.woff) format("woff");
-font-weight:800;
-font-style:italic;
-font-stretch:normal;
-font-display:swap
-}
-@font-face{font-family:Graphik;src:url(../fonts/Graphik-Black-Web.woff2) format("woff2"),
-url(../fonts/Graphik-Black-Web.woff) format("woff");
-font-weight:800;
-font-style:normal;
-font-stretch:normal;
-font-display:swap
-}
-@font-face{font-family:Graphik;src:url(../fonts/Graphik-BoldItalic-Web.woff2) format("woff2"),
-url(../fonts/Graphik-BoldItalic-Web.woff) format("woff");
-font-weight:700;
-font-style:italic;
-font-stretch:normal;
-font-display:swap
-}
-@font-face{font-family:Graphik;src:url(../fonts/Graphik-Bold-Web.woff2) format("woff2"),
-url(../fonts/Graphik-Bold-Web.woff) format("woff");
-font-weight:700;
-font-style:normal;
-font-stretch:normal;
-font-display:swap
-}
-@font-face{font-family:Graphik;src:url(../fonts/Graphik-SemiboldItalic-Web.woff2) format("woff2"),
-url(../fonts/Graphik-SemiboldItalic-Web.woff) format("woff");
-font-weight:600;
-font-style:italic;
-font-stretch:normal;
-font-display:swap
-}
-@font-face{font-family:Graphik;src:url(../fonts/Graphik-Semibold-Web.woff2) format("woff2"),
-url(../fonts/Graphik-Semibold-Web.woff) format("woff");
-font-weight:600;
-font-style:normal;
-font-stretch:normal;
-font-display:swap
-}
-@font-face{font-family:Graphik;src:url(../fonts/Graphik-MediumItalic-Web.woff2) format("woff2"),
-url(../fonts/Graphik-MediumItalic-Web.woff) format("woff");
-font-weight:500;
-font-style:italic;
-font-stretch:normal;
-font-display:swap
-}
-@font-face{font-family:Graphik;src:url(../fonts/Graphik-Medium-Web.woff2) format("woff2"),
-url(../fonts/Graphik-Medium-Web.woff) format("woff");
-font-weight:500;
-font-style:normal;
-font-stretch:normal;
-font-display:swap
-}
-@font-face{font-family:Graphik;src:url(../fonts/Graphik-RegularItalic-Web.woff2) format("woff2"),
-url(../fonts/Graphik-RegularItalic-Web.woff) format("woff");
-font-weight:400;
-font-style:italic;
-font-stretch:normal;
-font-display:swap
-}
-@font-face{font-family:Graphik;src:url(../fonts/Graphik-Regular-Web.woff2) format("woff2"),
-url(../fonts/Graphik-Regular-Web.woff) format("woff");
-font-weight:400;
-font-style:normal;
-font-stretch:normal;
-font-display:swap
-}
-@font-face{font-family:Graphik;src:url(../fonts/Graphik-LightItalic-Web.woff2) format("woff2"),
-url(../fonts/Graphik-LightItalic-Web.woff) format("woff");
-font-weight:300;
-font-style:italic;
-font-stretch:normal;
-font-display:swap
-}
-@font-face{font-family:Graphik;src:url(../fonts/Graphik-Light-Web.woff2) format("woff2"),
-url(../fonts/Graphik-Light-Web.woff) format("woff");
-font-weight:300;
-font-style:normal;
-font-stretch:normal;
-font-display:swap
-}
-@font-face{font-family:Graphik;src:url(../fonts/Graphik-ExtralightItalic-Web.woff2) format("woff2"),
-url(../fonts/Graphik-ExtralightItalic-Web.woff) format("woff");
-font-weight:200;
-font-style:italic;
-font-stretch:normal;
-font-display:swap
-}
-@font-face{font-family:Graphik;src:url(../fonts/Graphik-Extralight-Web.woff2) format("woff2"),
-url(../fonts/Graphik-Extralight-Web.woff) format("woff");
-font-weight:200;
-font-style:normal;
-font-stretch:normal;
-font-display:swap
-}
-@font-face{font-family:Graphik;src:url(../fonts/Graphik-ThinItalic-Web.woff2) format("woff2"),
-url(../fonts/Graphik-ThinItalic-Web.woff) format("woff");
-font-weight:100;
-font-style:italic;
-font-stretch:normal;
-font-display:swap
-}
-@font-face{font-family:Graphik;src:url(../fonts/Graphik-Thin-Web.woff2) format("woff2"),
-url(../fonts/Graphik-Thin-Web.woff) format("woff");
-font-weight:100;
-font-style:normal;
-font-stretch:normal;
-font-display:swap
-}
 .barba-container {
 	width:100vw
 }
@@ -1429,7 +1304,7 @@ body {
 	-webkit-text-size-adjust:100%;
 	-webkit-font-smoothing:antialiased;
 	box-sizing:border-box;
-	font-family:Graphik,
+	font-family:Roboto,
 	Arial,
 	Helvetica,
 	sans-serif
@@ -1769,12 +1644,12 @@ header .logo .logo-wrap {
 	list-style-type:none;
 	counter-reset:compteListe;
 	width:56%;
-	font:200 normal 52px Graphik
+	font:200 normal 52px Roboto
 }
 @media screen and (max-width: 500px) {
 	.menu ol {
 		padding:0 0 0 15%;
-		font:200 normal 40px Graphik;
+		font:200 normal 40px Roboto;
 		width:80%;
 		top:calc(45vh - 10px)
 	}
@@ -1791,7 +1666,7 @@ header .logo .logo-wrap {
 	.2);
 	content:"0" counter(compteListe);
 	position:absolute;
-	font:400 normal 12px/12px Graphik;
+	font:400 normal 12px/12px Roboto;
 	top:40%;
 	right:calc(100% + 68px);
 	-webkit-transform-origin:100% 100%;
@@ -1970,7 +1845,7 @@ footer #inner_footer {
 	}
 }
 footer #inner_footer a.main_link {
-	font:200 normal 80px/80px Graphik;
+	font:200 normal 80px/80px Roboto;
 	padding:40px 0 10px;
 	color:#fff;
 	display:inline-block;
@@ -2701,7 +2576,7 @@ footer .overlay {
 	255,
 	255,
 	.5);
-	font:400 normal 11px/42px Graphik;
+	font:400 normal 11px/42px Roboto;
 	text-transform:uppercase;
 	letter-spacing:2px;
 	position:absolute;
@@ -2765,7 +2640,7 @@ ol.plus_list {
 	ol.plus_list {
 		padding:0 0 80px 0;
 		margin-top:-50px;
-		font:300 normal 24px Graphik
+		font:300 normal 24px Roboto
 	}
 }
 ol.plus_list li {
@@ -2786,7 +2661,7 @@ ol.plus_list li::before {
 	.5);
 	content:"0" counter(compteListe);
 	position:absolute;
-	font:400 normal 11px/11px Graphik;
+	font:400 normal 11px/11px Roboto;
 	top:40%;
 	right:calc(100% + 68px);
 	-webkit-transform-origin:100% 100%;
@@ -3649,7 +3524,7 @@ section.terms p.lead {
 	}
 }
 .q_slide .slide .caption h1 {
-	font:200 normal 65px/82px Graphik;
+	font:200 normal 65px/82px Roboto;
 	margin-top:0;
 	color:#fff
 }
@@ -3662,7 +3537,7 @@ section.terms p.lead {
 }
 @media screen and (max-width: 500px) {
 	.q_slide .slide .caption h1 {
-		font:200 normal 40px/1.4 Graphik
+		font:200 normal 40px/1.4 Roboto
 	}
 }
 .q_slide .slide .caption .num {
