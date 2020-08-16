@@ -1,0 +1,355 @@
+<!doctype html>
+<!--[if lte IE 9]>     <html lang="en" class="has-no-js" class="ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en" class="has-no-js"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+
+
+    <title data-template="%title — Kvell">Kvell</title>
+    
+    <meta property="og:type"        content="website">
+    <meta property="og:url"         content="/">
+    <meta property="og:site_name"   content="Kvell">
+    <meta property="og:image"       content="https://kvellhome.com/assets/images/social/kvell.jpg">
+    
+    
+    <meta property="twitter:card"        content="summary">
+    <meta property="twitter:url"         content="/">
+    <meta property="twitter:image"       content="https://kvellhome.com/assets/images/social/kvell.jpg">
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="HandheldFriendly" content="True">
+
+    <!-- Theming -->
+    <meta name="theme-color" content="#A0AEAA">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="https://kvellhome.com//assets/images/device/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kvellhome.com//assets/images/device/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+    <meta name="theme-color" content="#000000">
+    
+    <link rel="stylesheet" href="assets/styles/main.css">
+   
+</head>
+<body data-template="home">
+
+    <div class="o-loader"></div>
+
+    <div class="o-spinner-wrap">
+        <div class="o-spinner">
+            <div class="o-spinner_axis">
+                <div class="o-spinner_container">
+                    <div class="o-spinner_inner"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="o-barba js-barba" id="js-barba-wrapper">
+        <div class="o-barba_container js-barba-container" data-template="home">
+
+            <header data-module="Nav, Gallery js-scroll" data-target="">
+                <div class="o-button-fixed -left -front">
+                     <button class="o-button -circle js-nav-toggle" type="button">
+                        <span class="o-button_circle-icon -nav">
+                            <span class="o-button_circle-icon_wrap"></span>
+                        </span>
+                        <span class="o-button_label">Menu</span>
+                    </button>
+                </div>
+
+                <div class="c-logo">
+                    <a class="c-logo_link" href="https://kvellhome.com/">
+                        <svg class="c-logo_image" role="img" title="Kvell">
+                            <use xlink:href="assets/images/sprite.svg#logo"></use>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="o-button-fixed -right -front -cart" data-module="Cart">
+                    <button class="o-button -circle -right js-cart-toggle" type="button">
+                        <span class="o-button_circle-icon -no-rotate -open">
+                            <svg class="o-button_icon -big" role="img">
+                                <use xlink:href="assets/images/sprite.svg#cart"></use>
+                            </svg>
+                        </span>
+                        <span class="o-button_circle-icon -no-rotate -close">
+                            <svg class="o-button_icon -big" role="img">
+                                <use xlink:href="assets/images/sprite.svg#close"></use>
+                            </svg>
+                        </span>
+                        <span class="o-button_label">Cart</span>
+                        <span class="o-button_notification">
+                            <span class="js-item-count"></span>
+                        </span>
+                    </button>
+                </div>
+
+                <nav class="c-nav">
+                    <div class="c-nav_background o-background js-nav-close"></div>
+                    <div class="c-nav_main">
+                        <ul class="c-nav_list">
+                            <li class="c-nav_item">
+                                <a href="/" class="c-nav_link -home is-current js-nav-link" data-transition="nav" data-transition-class="home">
+                                    <span class="c-nav_label">Lookbook</span>
+                                </a>
+                                <div class="c-nav_overlay -home o-background"></div>
+                            </li>
+                            <li class="c-nav_item">
+                                <a href="/shop" class="c-nav_link -shop js-nav-link" data-transition="nav" data-transition-class="shop">
+                                    <span class="c-nav_label">Shop</span>
+                                </a>
+                                <div class="c-nav_overlay -shop o-background"></div>
+                            </li>
+                            <li class="c-nav_item">
+                                <a href="/contact" class="c-nav_link -contact js-nav-link" data-transition="nav" data-transition-class="contact">
+                                    <span class="c-nav_label">Contact</span>
+                                </a>
+                                <div class="c-nav_overlay -contact o-background"></div>
+                            </li>
+                            <li class="c-nav_item">
+                                <a href="/about" class="c-nav_link -about js-nav-link" data-transition="nav" data-transition-class="about">
+                                    <span class="c-nav_label">About</span>
+                                </a>
+                                <div class="c-nav_overlay -about o-background"></div>
+                            </li>
+                        </ul>
+                        <div class="c-nav_overlay -default o-background"></div>
+                        <div class="c-nav_social">
+                            <ul class="c-social">
+                                <li class="c-social_item">
+                                    <a class="c-social_link" href="https://facebook.com/Kvell-Home-421450778187867/?fref=ts" target="_blank" aria-label="Facebook">
+                                        <svg class="c-social_icon" role="img">
+                                            <use xlink:href="assets/images/sprite.svg#social--facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="c-social_item">
+                                    <a class="c-social_link" href="https://twitter.com/KvellHome" target="_blank" aria-label="Twitter">
+                                        <svg class="c-social_icon" role="img">
+                                            <use xlink:href="assets/images/sprite.svg#social--twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="c-social_item">
+                                    <a class="c-social_link" href="https://pinterest.com/KvellHome" target="_blank" aria-label="Pinterest">
+                                        <svg class="c-social_icon" role="img">
+                                            <use xlink:href="assets/images/sprite.svg#social--pinterest"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="c-social_item">
+                                    <a class="c-social_link" href="https://instagram.com/KvellHome" target="_blank" aria-label="Instagram">
+                                        <svg class="c-social_icon" role="img">
+                                            <use xlink:href="assets/images/sprite.svg#social--instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="c-nav_flag" data-module="Currency">
+                            <div class="o-button -circle -right -multiple">
+                                <button class="o-button_circle-icon -hidden -no-rotate js-currency-toggle" type="button" data-currency="usd">
+                                    <svg class="o-button_icon -flag" role="img">
+                                        <use xlink:href="assets/images/sprite.svg#flag-usd"></use>
+                                    </svg>
+                                </button>
+                                <div class="o-button_circle-icon -gray -no-rotate">
+                                    <svg class="o-button_icon -flag is-active" role="img">
+                                        <use xlink:href="assets/images/sprite.svg#flag-cad"></use>
+                                    </svg>
+                                    <svg class="o-button_icon -flag" role="img">
+                                        <use xlink:href="assets/images/sprite.svg#flag-usd"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <main>
+
+<div class="c-home">
+
+    <div class="c-home_content">
+        <p class="c-heading-text -words"><span>Proudly</span> <span>designed</span> <span>for</span> <span>everyday</span> <span>living.</span></p>
+    </div>
+
+    <div class="c-home_button">
+        <div class="o-button -nopadding -nocircle">
+            <span class="o-button_wrap">
+                <a class="o-button_link -discover" href="#" data-module="ButtonDiscover">
+                    <span class="o-button_label">Discover</span>
+                </a>
+            </span>
+            <span class="o-button_slider-wrap">
+                <div class="o-button_slider -discover js-button-slider" data-module="ButtonSlider">
+                    <div class="o-button_slider_item js-slide">
+                        <a class="o-button_slider_link" href="catalog/kaptain.htm" data-transition="next">
+                            <span class="o-button_label">View Kaptain</span>
+                        </a>
+                    </div>
+                    <div class="o-button_slider_item js-slide">
+                        <a class="o-button_slider_link" href="https://kvellhome.com/catalog/kube" data-transition="next">
+                            <span class="o-button_label">View Kube</span>
+                        </a>
+                    </div>
+                    <div class="o-button_slider_item js-slide">
+                        <a class="o-button_slider_link" href="https://kvellhome.com/catalog/rollo" data-transition="next">
+                            <span class="o-button_label">View Rollo</span>
+                        </a>
+                    </div>
+                    <div class="o-button_slider_item js-slide">
+                        <a class="o-button_slider_link" href="https://kvellhome.com/catalog/orbit" data-transition="next">
+                            <span class="o-button_label">View Orbit</span>
+                        </a>
+                    </div>
+                    <div class="o-button_slider_item js-slide">
+                        <a class="o-button_slider_link" href="https://kvellhome.com/catalog/nordik" data-transition="next">
+                            <span class="o-button_label">View Nordik</span>
+                        </a>
+                    </div>
+                    <div class="o-button_slider_item js-slide">
+                        <a class="o-button_slider_link" href="https://kvellhome.com/catalog/fib" data-transition="next">
+                            <span class="o-button_label">View Fib</span>
+                        </a>
+                    </div>
+                    <div class="o-button_slider_item js-slide">
+                        <a class="o-button_slider_link" href="https://kvellhome.com/catalog/boto" data-transition="next">
+                            <span class="o-button_label">View Boto</span>
+                        </a>
+                    </div>
+                    <div class="o-button_slider_item js-slide">
+                        <a class="o-button_slider_link" href="https://kvellhome.com/catalog/pop" data-transition="next">
+                            <span class="o-button_label">View Pop</span>
+                        </a>
+                    </div>
+                    <div class="o-button_slider_item js-slide">
+                        <a class="o-button_slider_link" href="https://kvellhome.com/catalog/stax" data-transition="next">
+                            <span class="o-button_label">View Stax</span>
+                        </a>
+                    </div>
+                    <div class="o-button_slider_item js-slide">
+                        <a class="o-button_slider_link" href="https://kvellhome.com/catalog/versa" data-transition="next">
+                            <span class="o-button_label">View Versa</span>
+                        </a>
+                    </div>
+                </div>
+            </span>
+        </div>
+    </div>
+
+    <div class="c-family-slider js-family-slider" data-module="FamilySlider, ButtonDiscover">
+        <div class="c-family-slider_item js-slide" style="background-color: #B5C6C2;">
+            <div class="c-family-slider_background o-background" data-module="FamilyBackground" data-background-landscape="uploads/family/featured/kaptain_desktop-1920x1080.jpg" data-background-portrait="uploads/family/featured/kaptain_mobile-1080x1920.jpg"></div>
+        </div>
+        <div class="c-family-slider_item js-slide" style="background-color: #EBBC4E;">
+            <div class="c-family-slider_background o-background" data-module="FamilyBackground" data-background-landscape="uploads/family/featured/Kube_Desktop-1920x1080.jpg" data-background-portrait="uploads/family/featured/Kube_Mobile-1080x1920.jpg"></div>
+        </div>
+        <div class="c-family-slider_item js-slide" style="background-color: #E8E0D3;">
+            <div class="c-family-slider_background o-background" data-module="FamilyBackground" data-background-landscape="uploads/family/featured/Rollo_Desktop-1920x1080.jpg" data-background-portrait="uploads/family/featured/Rollo_Mobile-1080x1920.jpg"></div>
+        </div>
+        <div class="c-family-slider_item js-slide" style="background-color: #E5554F;">
+            <div class="c-family-slider_background o-background" data-module="FamilyBackground" data-background-landscape="uploads/family/featured/Orbit_Desktop-1920x1080.jpg" data-background-portrait="uploads/family/featured/Orbit_Mobile-1080x1920.jpg"></div>
+        </div>
+        <div class="c-family-slider_item js-slide" style="background-color: #BFCED6;">
+            <div class="c-family-slider_background o-background" data-module="FamilyBackground" data-background-landscape="uploads/family/featured/Nordik_Desktop-1920x1080.jpg" data-background-portrait="uploads/family/featured/Nordik_Mobile-1080x1920.jpg"></div>
+        </div>
+        <div class="c-family-slider_item js-slide" style="background-color: #00B7BD;">
+            <div class="c-family-slider_background o-background" data-module="FamilyBackground" data-background-landscape="uploads/family/featured/Fib_Desktop-1920x1080.jpg" data-background-portrait="uploads/family/featured/Fib_Mobile-1080x1920.jpg"></div>
+        </div>
+        <div class="c-family-slider_item js-slide" style="background-color: #BFBFBF;">
+            <div class="c-family-slider_background o-background" data-module="FamilyBackground" data-background-landscape="uploads/family/featured/Boto_Desktop-1920x1080.jpg" data-background-portrait="uploads/family/featured/Boto_Mobile-1080x1920.jpg"></div>
+        </div>
+        <div class="c-family-slider_item js-slide" style="background-color: #334275;">
+            <div class="c-family-slider_background o-background" data-module="FamilyBackground" data-background-landscape="uploads/family/featured/Pop_Desktop-1920x1080.jpg" data-background-portrait="uploads/family/featured/Pop_Mobile-1080x1920.jpg"></div>
+        </div>
+        <div class="c-family-slider_item js-slide" style="background-color: #9A9695;">
+            <div class="c-family-slider_background o-background" data-module="FamilyBackground" data-background-landscape="uploads/family/featured/Stax_Desktop-1920x1080.jpg" data-background-portrait="uploads/family/featured/Stax_Mobile-1080x1920.jpg"></div>
+        </div>
+        <div class="c-family-slider_item js-slide" style="background-color: #EABEB0;">
+            <div class="c-family-slider_background o-background" data-module="FamilyBackground" data-background-landscape="uploads/family/featured/Versa_Desktop-1920x1080.jpg" data-background-portrait="uploads/family/featured/Versa_Mobile-1080x1920.jpg"></div>
+        </div>
+    </div>
+
+    <div class="c-dots -horizontal">
+        <div class="c-dots_list js-family-dots" data-module="FamilyDots">
+            <div class="c-dots_item js-slide">
+                <button class="c-dots_link" type="button">
+                    <span class="c-dots_dot"></span>
+                </button>
+            </div>
+            <div class="c-dots_item js-slide">
+                <button class="c-dots_link" type="button">
+                    <span class="c-dots_dot"></span>
+                </button>
+            </div>
+            <div class="c-dots_item js-slide">
+                <button class="c-dots_link" type="button">
+                    <span class="c-dots_dot"></span>
+                </button>
+            </div>
+            <div class="c-dots_item js-slide">
+                <button class="c-dots_link" type="button">
+                    <span class="c-dots_dot"></span>
+                </button>
+            </div>
+            <div class="c-dots_item js-slide">
+                <button class="c-dots_link" type="button">
+                    <span class="c-dots_dot"></span>
+                </button>
+            </div>
+            <div class="c-dots_item js-slide">
+                <button class="c-dots_link" type="button">
+                    <span class="c-dots_dot"></span>
+                </button>
+            </div>
+            <div class="c-dots_item js-slide">
+                <button class="c-dots_link" type="button">
+                    <span class="c-dots_dot"></span>
+                </button>
+            </div>
+            <div class="c-dots_item js-slide">
+                <button class="c-dots_link" type="button">
+                    <span class="c-dots_dot"></span>
+                </button>
+            </div>
+            <div class="c-dots_item js-slide">
+                <button class="c-dots_link" type="button">
+                    <span class="c-dots_dot"></span>
+                </button>
+            </div>
+            <div class="c-dots_item js-slide">
+                <button class="c-dots_link" type="button">
+                    <span class="c-dots_dot"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+            </main>
+
+
+        </div>
+    </div>
+
+    <div class="o-overlay" data-module="CartButton">
+        <div class="o-overlay_wrap js-cart-close"></div>
+    </div>
+
+    <script>
+        window.currency = 'cad';
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="" data-autopop="false" id="snipcart"></script>
+    <script src="assets/scripts/vendors.js"></script>
+    <script src="assets/scripts/app.js"></script>
+</body>
+</html>
