@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- COMMON TAGS -->
+    <meta charset="utf-8"/>
+    <title>APK</title>
+    
+    
+    <style>
+    @keyframes thinking{
+        0% {transform: rotate(0deg) translateX(0px);}
+        5%, 15%{transform: rotate(-40deg) translateX(25px);}
+        20%, 30%{transform: rotate(-115deg) translateX(15px);}
+        35%, 45%{transform: rotate(-40deg) translateX(25px);}
+        50%, 60%{transform: rotate(-115deg) translateX(15px);}
+        65% {transform: rotate(-180deg) translateX(0px);}
+    }
+
+    .loader{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        z-index: 900;
+        opacity: 1;
+        transition: opacity 0.3s ease;
+    }
+
+    .loader-logo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 264px;
+        width: 264px;
+    }
+
+    .loader-logo img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 264px;
+        width: 264px;
+     }
+
+    .loader-logo .js-eyeballs{
+        top: 142px;
+        left: 88px;
+        height: 10px;
+        width: 10px;
+        will-change: transform;
+
+        animation: 12s ease infinite thinking;
+    }
+
+    .loader-logo .js-eyeballs:nth-child(3){
+        left: 178px;
+    }
+    </style>
+    <script>
+        document.addEventListener('readystatechange', function(){
+            if(document.readyState == "complete"){
+                document.querySelector('.loader').style.opacity=0
+                window.setTimeout(function(){
+                    document.querySelector('.loader').style.display="none"
+                }, 400);
+            }
+        })
+    </script>
+
+    <link rel="stylesheet" href="assets/css/main.css"/>
+</head>
+<body data-barba="wrapper">
+    <div class="loader">
+        <div class="loader-logo">
+            <img src="assets/images/logo_web_eyeless.svg">
+            <img class="js-eyeballs" src="assets/images/logo_web_eyeball.svg">
+            <img class="js-eyeballs" src="assets/images/logo_web_eyeball.svg">
+        </div>
+    </div>
+    <nav>
+        <a class="nav-logo" href="/" title="An Phu Khang">
+        <a class="burger" href="/work" title="motion design showreel and work">
+            <img src="assets/images/Chevron_Black.svg">
+            <span> My showreel</span>
+        </a>
+    </nav>
+        
+<main  data-barba="container" data-barba-namespace="case">
+<section class="case-study livefarms"  data-barba="container" data-barba-namespace="case">
+    <header class="hero js-fluid-container">
+        <img src="assets/images/livefarms/hero.png" alt="Nespresso Livefarms key visual">
+        <div>
+            <h1>Nespresso Livefarms</h1>
+            <h2>Motion design for in store communication</h2>
+        </div>
+    </header>
+
+    <div class="container intro">
+        <div class="context">
+            <h3>Context</h3>
+            <p>During my year of apprenticeship at Biggerband, I had the opportunity to work for Nespresso and help producing videos promoting the brand actions on sustainability.</p>
+        </div>
+        <div class="details">
+            <h3>Expertise</h3>
+            <p>
+                Visual design <br/>
+                Motion Design
+            </p>
+            <h3>Client</h3>
+            <p>Nespresso is a leading premium coffee company.</p>
+        </div>
+    </div>
+
+    <div class="container step brief">
+        <h3>01. Brief</h3>
+        <div class="row">
+            <div class="text-box">
+                <p class="bold">Livefarms is a multi-touchpoints campaign promoting environmental and social awareness to Nespresso’s customers by letting them discover the life of coffee producers.
+                </p>
+                <p>One of my first jobs at Biggerband was to produce videos displayed in boutiques on large screens. The most part of storyboard and art direction had already been done.
+                </p>
+            </div>
+            <div class="img-box">
+                <img src="assets/images/livefarms/frames.png" alt="Nespresso livefarms boutique screen">
+                <div class="caption">
+                    <img src="assets/images/sm_angleArrowLft.svg">
+                    <p>Frames for v1</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container step drafts">
+        <h3>02. Production</h3>
+        <div class="img-box">
+            <video class="js-autoplay" muted autoplay loop>
+                <source src="assets/images/livefarms/sample.mp4" type="video/mp4">
+            </video>            
+            <div class="caption">
+                <img src="assets/images/sm_angleArrowTop.svg">
+                <p>pieces of animation from livefarms (V1)</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-box">
+                <p>The challenge here was to think every piece of animation to be clean, clear, and well-timed for  the customer to be able to understand easily the message. 
+                </p>
+                <p class="bold">Even though it was a motion design mission, this project has been thought much like an interface with usability constraints. I believe that this work reflect the importance of animations not only on an aesthetic level, but also on a functional one.
+                </p>
+            </div>
+            <div class="img-box">
+                <video class="js-autoplay" muted autoplay loop>
+                    <source src="assets/images/livefarms/detail.mp4" type="video/mp4">
+                </video>   
+                <div class="caption">
+                    <img src="assets/images/sm_angleArrowLft.svg">
+                    <p>detail</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container step production">
+        <h3>03. Automation</h3>
+
+            <div class="row">
+                <p class="bold">A new video each month, translated in 5 languages, adapted to 4 screen formats.
+                </p>
+            </div>
+            <div class="row">
+                <p>To save hours of work, I decided to automatize everything in after effects to be able to update everything in a few clicks for each new version.
+                </p>
+            </div>
+        <div class="img-box">
+            <!--<img src="assets/images/orba/thumbnail.png" alt="Orba commercial moodboard">-->
+            <video class="js-autoplay" muted autoplay loop controls>
+                <source src="assets/images/livefarms/livefarms.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <img src="assets/images/sm_angleArrowTop.svg">
+                <p>Nespresso livefarms (v2)</p>
+            </div>
+            <div class="deco"></div>
+        </div>
+    </div>
+
+    <div class="react"></div>
+    <a href="/work/flying-whales" title="Flying Whales branding case study">
+    <footer class="next-case">
+        <div class="hero js-fluid-container">
+            <img src="assets/images/flyingWhales/hero.png" alt="Flying whales branding case study by ">
+            <div>
+                <h1>Flying Whales</h1>
+                <h2>Brand identity for a B2B freight company</h2>
+            </div>
+        </div>
+        <div class="arrow">
+            <span>Next up</span>
+            <img src="assets/images/longArrowDwn.svg">
+        </div>
+    </footer>
+    </a>
+
+</section>
+</main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.6.10/lottie_light.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="assets/js/barba.umd.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
