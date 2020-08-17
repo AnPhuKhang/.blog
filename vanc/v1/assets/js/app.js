@@ -1212,8 +1212,13 @@
 //*main.js*//
 
 "use strict";
-
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+function _createForOfIteratorHelper(o) { if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) { var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var it, normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(n); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 var BarbaInit = function BarbaInit() {
   _classCallCheck(this, BarbaInit);
@@ -1494,13 +1499,6 @@ var BarbaInit = function BarbaInit() {
   });
   */
 };
-"use strict";
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
 var Eyeballs = /*#__PURE__*/function () {
   function Eyeballs(container) {
@@ -1531,19 +1529,6 @@ var Eyeballs = /*#__PURE__*/function () {
 
   return Eyeballs;
 }();
-"use strict";
-
-function _createForOfIteratorHelper(o) { if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) { var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var it, normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
-
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(n); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
 var FluidContainers = /*#__PURE__*/function () {
   function FluidContainers(container) {
@@ -1598,13 +1583,6 @@ var FluidContainers = /*#__PURE__*/function () {
 
   return FluidContainers;
 }();
-"use strict";
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
 var Gallery = /*#__PURE__*/function () {
   function Gallery(container) {
@@ -1695,15 +1673,6 @@ var Gallery = /*#__PURE__*/function () {
 
   return Gallery;
 }();
-"use strict";
-
-function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
 var LottieAnimations = /*#__PURE__*/function () {
   function LottieAnimations(path) {
@@ -1719,7 +1688,7 @@ var LottieAnimations = /*#__PURE__*/function () {
       loop: false,
       autoplay: false,
       speed: 2,
-      path: path + '/data.json' // the path to the animation json
+      path: 'https://blog.anphukhang.com.vn/assets/js/data.json' // the path to the animation json
 
     });
     $nav.addEventListener('mouseenter', function () {
@@ -1752,19 +1721,6 @@ var LottieAnimations = /*#__PURE__*/function () {
 
   return LottieAnimations;
 }();
-"use strict";
-
-function _createForOfIteratorHelper(o) { if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (o = _unsupportedIterableToArray(o))) { var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var it, normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
-
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(n); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
 var Menu = /*#__PURE__*/function () {
   function Menu(container) {
@@ -1794,8 +1750,8 @@ var Menu = /*#__PURE__*/function () {
           var sector = {
             element: $sector,
             active: false,
-            angle_o: 126,
-            angle_c: 25,
+            angle_o: 117,
+            angle_c: 22,
             rotate: 0,
             color: '#567DF8',
             text: 'Work'
@@ -1804,12 +1760,15 @@ var Menu = /*#__PURE__*/function () {
         }
 
         this.sectors[0].active = true;
-        this.sectors[1].rotate = 128;
+        this.sectors[1].rotate = 119;
         this.sectors[1].color = '#E63E33';
         this.sectors[1].text = 'About';
-        this.sectors[2].rotate = 155;
+        this.sectors[2].rotate = 143;
         this.sectors[2].color = '#FAC242';
-        this.sectors[2].text = 'Contact';
+        this.sectors[2].text = 'Blog';
+        this.sectors[3].rotate = 167;
+        this.sectors[3].color = '#ABACAD';
+        this.sectors[3].text = 'Contact';
 
         var _iterator = _createForOfIteratorHelper(this.sectors),
             _step;
@@ -1847,7 +1806,10 @@ var Menu = /*#__PURE__*/function () {
         this.sectors[2].rotate = 510; //this.sectors[2].angle_o = 305
 
         this.sectors[2].color = '#FAC242';
-        this.sectors[2].text = 'Contact';
+        this.sectors[2].text = 'Blog';
+        
+        this.sectors[3].color = '#ABACAD';
+        this.sectors[3].text = 'Contact';
 
         var _iterator2 = _createForOfIteratorHelper(this.sectors),
             _step2;
@@ -1905,18 +1867,28 @@ var Menu = /*#__PURE__*/function () {
       this.touchFunction = function (e) {
         var touch = e.changedTouches[0];
 
+        //0
         if (touch.clientY <= _this2.sectors[1].sektor.sector.getBoundingClientRect().top) {
           if (!_this2.sectors[0].active) {
             e.preventDefault();
 
             _this2.changeSector(0);
           }
+        //3
+        } else if (touch.clientY >= _this2.sectors[2].sektor.sector.getBoundingClientRect().bottom) {
+          if (!_this2.sectors[3].active) {
+            e.preventDefault();
+
+            _this2.changeSector(3);
+          }
+        //2
         } else if (touch.clientY >= _this2.sectors[1].sektor.sector.getBoundingClientRect().bottom) {
           if (!_this2.sectors[2].active) {
             e.preventDefault();
 
             _this2.changeSector(2);
           }
+        //1
         } else {
           if (!_this2.sectors[1].active) e.preventDefault();
           {
@@ -1927,15 +1899,23 @@ var Menu = /*#__PURE__*/function () {
 
       this.mouseFunction = function (e) {
         if (window.innerWidth < 650 || e.clientX > window.innerWidth / 2) {
+          //0
           if (e.clientY <= _this2.sectors[1].sektor.sector.getBoundingClientRect().top) {
             if (!_this2.sectors[0].active) {
               _this2.changeSector(0);
             }
+          //3
+          } else if (e.clientY >= _this2.sectors[2].sektor.sector.getBoundingClientRect().bottom) {
+            if (!_this2.sectors[3].active) {
+              _this2.changeSector(3);
+            }
+          //2
           } else if (e.clientY >= _this2.sectors[1].sektor.sector.getBoundingClientRect().bottom) {
             if (!_this2.sectors[2].active) {
               _this2.changeSector(2);
-            }
-          } else {
+            } 
+          //1
+          }else {
             if (!_this2.sectors[1].active) {
               _this2.changeSector(1);
             }
@@ -1973,6 +1953,8 @@ var Menu = /*#__PURE__*/function () {
         this.linkboxes[1].classList.remove('active');
         this.linkboxes[2].style.display = "none";
         this.linkboxes[2].classList.remove('active');
+        this.linkboxes[3].style.display = "none";
+        this.linkboxes[3].classList.remove('active');
         this.container.removeEventListener('touchend', this.touchFunction);
         this.container.removeEventListener('mousemove', this.mouseFunction);
         this.init();
@@ -1982,13 +1964,6 @@ var Menu = /*#__PURE__*/function () {
 
   return Menu;
 }();
-"use strict";
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
 var RecSektor = /*#__PURE__*/function () {
   function RecSektor(selector, angle, rotate, color, text) {
@@ -2079,13 +2054,26 @@ var RecSektor = /*#__PURE__*/function () {
 
   return RecSektor;
 }();
-"use strict";
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 var Sektor = /*#__PURE__*/function () {
   function Sektor(selector, angle, rotate, color, text) {
@@ -2240,9 +2228,6 @@ var Sektor = /*#__PURE__*/function () {
 
   return Sektor;
 }();
-"use strict";
-
-function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 /*! modernizr 3.6.0 (Custom Build) | MIT *
  * https://modernizr.com/download/?-touchevents-setclasses !*/
