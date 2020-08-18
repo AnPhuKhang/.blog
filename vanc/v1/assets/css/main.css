@@ -53,6 +53,8 @@ section.menu {
     /*top: 40px;
         left: 40px;
         height: 40px;*/ }
+
+
   section.menu .link-box {
     width: 100%;
     position: absolute;
@@ -204,6 +206,10 @@ section.menu {
         left: -9px;
         -webkit-transition-delay: .5s;
                 transition-delay: .5s; }
+
+
+
+
     section.menu .link-box:nth-of-type(2) {
       top: 50%;
       -webkit-transform: translateY(-50%);
@@ -236,6 +242,9 @@ section.menu {
         left: -35px;
         -webkit-transition-delay: .2s;
                 transition-delay: .2s; }
+
+
+
     section.menu .link-box:nth-of-type(3) {
       top: auto;
       bottom: calc(50% - 306px); }
@@ -274,6 +283,51 @@ section.menu {
         left: -155px;
         -webkit-transition-delay: .4s;
                 transition-delay: .4s; }
+
+
+
+
+    section.menu .link-box:nth-of-type(4) {
+      top: auto;
+      bottom: calc(50% - 306px); }
+      section.menu .link-box:nth-of-type(4) .link .title::before {
+        background: #EF9B3A; }
+      section.menu .link-box:nth-of-type(4) .link.bold {
+        border-color: #EF9B3A; }
+        section.menu .link-box:nth-of-type(4) .link.bold img {
+          height: 15px;
+          position: relative;
+          top: 2px; }
+        section.menu .link-box:nth-of-type(4) .link.bold .title {
+          color: #EF9B3A; }
+        section.menu .link-box:nth-of-type(4) .link.bold:hover {
+          background: #EF9B3A; }
+          section.menu .link-box:nth-of-type(4) .link.bold:hover .title {
+            color: #fff; }
+      section.menu .link-box:nth-of-type(4) .link:nth-child(1) {
+        left: -0px;
+        -webkit-transition-delay: 0s;
+                transition-delay: 0s; }
+      section.menu .link-box:nth-of-type(4) .link:nth-child(2) {
+        left: -2px;
+        -webkit-transition-delay: .1s;
+                transition-delay: .1s; }
+      section.menu .link-box:nth-of-type(4) .link:nth-child(3) {
+        left: -20px;
+        -webkit-transition-delay: .2s;
+                transition-delay: .2s; }
+      section.menu .link-box:nth-of-type(4) .link:nth-child(4) {
+        left: -60px;
+        -webkit-transition-delay: .3s;
+                transition-delay: .3s;
+        margin-bottom: 32px; }
+      section.menu .link-box:nth-of-type(4) .link:nth-child(5) {
+        left: -155px;
+        -webkit-transition-delay: .4s;
+                transition-delay: .4s; }
+
+
+
   @media screen and (min-width: 1800px) and (min-height: 1000px) {
     section.menu {
       -webkit-transform: scale(1.2);

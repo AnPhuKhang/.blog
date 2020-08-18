@@ -1789,8 +1789,8 @@ var Menu = /*#__PURE__*/function () {
           var _sector2 = {
             element: _$sector,
             active: false,
-            angle_o: 370,
-            angle_c: 120,
+            angle_o: 268,
+            angle_c: 108,
             rotate: 0,
             color: '#567DF8',
             text: 'Work'
