@@ -1799,14 +1799,15 @@ var Menu = /*#__PURE__*/function () {
         }
 
         this.sectors[0].active = true;
-        this.sectors[1].rotate = 380; //this.sectors[1].angle_o = 170
+        this.sectors[1].rotate = 278;
 
         this.sectors[1].color = '#E63E33';
         this.sectors[1].text = 'About';
-        this.sectors[2].rotate = 510; //this.sectors[2].angle_o = 305
+        this.sectors[2].rotate = 396;
 
         this.sectors[2].color = '#FAC242';
         this.sectors[2].text = 'Blog';
+        this.sectors[3].rotate = 514;
         
         this.sectors[3].color = '#ABACAD';
         this.sectors[3].text = 'Contact';
