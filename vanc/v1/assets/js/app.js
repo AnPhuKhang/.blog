@@ -1750,8 +1750,8 @@ var Menu = /*#__PURE__*/function () {
           var sector = {
             element: $sector,
             active: false,
-            angle_o: 117-27,
-            angle_c: 22,
+            angle_o: 117-30,
+            angle_c: 22+3,
             rotate: 0,
             color: '#567DF8',
             text: 'Work'
@@ -1760,13 +1760,13 @@ var Menu = /*#__PURE__*/function () {
         }
 
         this.sectors[0].active = true;
-        this.sectors[1].rotate = 119-27;
+        this.sectors[1].rotate = 119-30;
         this.sectors[1].color = '#E63E33';
         this.sectors[1].text = 'About';
-        this.sectors[2].rotate = 143-27;
+        this.sectors[2].rotate = 143-30+3;
         this.sectors[2].color = '#FAC242';
         this.sectors[2].text = 'Blog';
-        this.sectors[3].rotate = 167-27;
+        this.sectors[3].rotate = 167-30+6;
         this.sectors[3].color = '#ABACAD';
         this.sectors[3].text = 'Contact';
 
