@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- COMMON TAGS -->
+    <meta charset="utf-8"/>
+    <title>APK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet"> 
+ 
+    <style>
+    @keyframes thinking{
+        0% {transform: rotate(0deg) translateX(0px);}
+        5%, 15%{transform: rotate(-40deg) translateX(25px);}
+        20%, 30%{transform: rotate(-115deg) translateX(15px);}
+        35%, 45%{transform: rotate(-40deg) translateX(25px);}
+        50%, 60%{transform: rotate(-115deg) translateX(15px);}
+        65% {transform: rotate(-180deg) translateX(0px);}
+    }
+
+    .loader{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        z-index: 900;
+        opacity: 1;
+        transition: opacity 0.3s ease;
+    }
+
+    .loader-logo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 264px;
+        width: 264px;
+    }
+
+    .loader-logo img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 264px;
+        width: 264px;
+     }
+
+    .loader-logo .js-eyeballs{
+        top: 142px;
+        left: 88px;
+        height: 10px;
+        width: 10px;
+        will-change: transform;
+
+        animation: 12s ease infinite thinking;
+    }
+
+    .loader-logo .js-eyeballs:nth-child(3){
+        left: 178px;
+    }
+    </style>
+    <script>
+        document.addEventListener('readystatechange', function(){
+            if(document.readyState == "complete"){
+                document.querySelector('.loader').style.opacity=0
+                window.setTimeout(function(){
+                    document.querySelector('.loader').style.display="none"
+                }, 400);
+            }
+        })
+    </script>
+    
+    <link rel="stylesheet" href="assets/css/spectre.min.css"/>
+    <link rel="stylesheet" href="assets/css/spectre-icons.min.css"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+</head>
+<body data-barba="wrapper">
+    <div class="loader">
+        <div class="loader-logo">
+            <img src="assets/images/logo_web_eyeless.svg">
+            <img class="js-eyeballs" src="assets/images/logo_web_eyeball.svg">
+            <img class="js-eyeballs" src="assets/images/logo_web_eyeball.svg">
+        </div>
+    </div>
+    <nav>
+        <a class="nav-logo" href="/" title="An Phu Khang">
+        <a class="burger" href="/work" title="motion design showreel and work">
+            <img src="assets/images/Chevron_Black.svg">
+            <span> My showreel</span>
+        </a>
+    </nav>
+        
+<main  data-barba="container" data-barba-namespace="case">
+<section class="case-study orba">
+    <header class="hero js-fluid-container">
+        <img src="assets/images/orba/hero.png" alt="Orba commercial key visual">
+        <div>
+            <h1>Orba Commercial</h1>
+            <h2>Art direction & motion design for a music instrument</h2>
+        </div>
+    </header>
+
+    <div class="container intro">
+        <div class="context">
+            <h3>Context</h3>
+            <p>For this personal project I decided to design and produce a commercial for Orba, a digital music instrument. The goal for me was to practice the video production process and my 3D skills. </p>
+        </div>
+        <div class="details">
+            <h3>Expertise</h3>
+            <p>
+                Art Direction <br/>
+                Motion Design
+            </p>
+            <h3>Client</h3>
+            <p>Artiphon is the new challenger in the digital music making industry.</p>
+        </div>
+    </div>
+
+    <div class="container step concept">
+        <h3>01. Concept</h3>
+        <div class="row">
+            <div class="text-box">
+                <p>Two things set Orba appart on its market (digital music making). It’s easy to use and should feel as simple as the clap of two hands. It’s performance friendly with beautiful gestures and analogical interactions.
+                </p>
+                <p class="bold">My take on this commercial is to show both of these qualities with natural yet simple movements. CGI will help me to show sensitivity in a tangible way.
+                </p>
+            </div>
+            <div class="img-box">
+                <img src="assets/images/orba/research.png" alt="Orba commercial research">
+                <div class="caption">
+                    <img src="assets/images/sm_angleArrowLft.svg">
+                    <p>research</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="img-box">
+                <img src="assets/images/orba/moodboard.png" alt="Orba commercial moodboard">
+                <div class="caption">
+                    <img src="assets/images/sm_angleArrowTop.svg">
+                    <p>piece of moodboard</p>
+                </div>
+            </div>
+            <div class="text-box">
+                <p class="bold">My research helped me identify the opportunity to target the ideal customer by looking more digital aware than the competition.
+                </p>
+                <p>I therefore chose to base my moodboard on 3D rendering trends that seems to perform well on social media.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container step drafts">
+        <h3>02. Drafts</h3>
+        <div class="img-box">
+            <img src="assets/images/orba/styleframe.png" alt="Orba commercial styleframe">
+            <div class="caption">
+                <img src="assets/images/sm_angleArrowTop.svg">
+                <p>Styleframe</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-box">
+                <p class="bold">Once the concept was clear, I began by puting up a storyboard, designing a styleframe, and picking a music.
+                </p>
+                <p>The storyboard consist of various sequence of Orba interacting in a colorful environment to produce sound. 
+                </p>
+                <p>A crucual step before production was to find the music that would match the animation, after a bit of struggle I chose a song from underscores and edited it to be a 30 seconds sample with good material to animate upon. 
+                </p>
+            </div>
+            <div class="img-box">
+                <img src="assets/images/orba/storyboard.png" alt="Orba commercial storyboard">
+                <div class="caption">
+                    <img src="assets/images/sm_angleArrowLft.svg">
+                    <p>Storyboard</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container step production">
+        <h3>03. Production</h3>
+
+            <div class="row">
+                <p class="bold">Here comes the best part! <br/>Modelisation, animation and render.
+                </p>
+            </div>
+            <div class="row">
+                <p>I rendered each sequence and edit them up in after effects where I aded a slight color correction as well as the title animation.
+                </p>
+                <p>As a beginner with 3D software, this step was a real challenge but with a bit of efforts things worked out!
+                </p>
+            </div>
+        <div class="img-box">
+            <!--<img src="assets/images/orba/thumbnail.png" alt="Orba commercial moodboard">-->
+            <video controls>
+                <source src="assets/images/orba/orba.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <img src="assets/images/sm_angleArrowTop.svg">
+                <p>Orba Commercial Concept, , 2020</p>
+            </div>
+            <div class="deco"></div>
+        </div>
+    </div>
+
+    <div class="react"></div>
+
+    <a href="/work/livefarms" title="Nespresso Livefarms motion design case study">
+    <footer class="next-case">
+        <div class="hero js-fluid-container">
+            <img src="assets/images/livefarms/hero.png" alt="Nespresso Livefarms case study by ">
+            <div>
+                <h1>Nespresso Livefarms</h1>
+                <h2>Motion design for in store communication</h2>
+            </div>
+        </div>
+        <div class="arrow">
+            <span>Next up</span>
+            <img src="assets/images/longArrowDwn.svg">
+        </div>
+    </footer>
+    </a>
+
+</section>
+</main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.6.10/lottie_light.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
