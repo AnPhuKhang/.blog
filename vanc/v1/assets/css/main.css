@@ -60,7 +60,7 @@ section.menu {
     width: 100%;
     position: absolute;
     left: calc(50% + 315px);
-    top: calc(50% - 270px); }
+    top: calc(50% - 210px); }
     section.menu .link-box.active .link {
       opacity: 1;
       -webkit-transform: translateX(0);
@@ -88,7 +88,6 @@ section.menu {
       font-size: 17px;
       line-height: 15px;
       color: black;
-      margin: 0 0 16px 0;
       opacity: 0;
       -webkit-transform: translateX(60px);
               transform: translateX(60px);
@@ -165,9 +164,7 @@ section.menu {
         border-width: 1px;
         border-color: #567DF8;
         -webkit-box-sizing: border-box;
-                box-sizing: border-box;
-        padding: 6px 12px;
-        margin: 0 0 24px 0; }
+                box-sizing: border-box; }
         section.menu .link-box .link.bold a {
           display: inline; }
         section.menu .link-box .link.bold .title {
@@ -183,28 +180,25 @@ section.menu {
           section.menu .link-box .link.bold:hover img {
             -webkit-filter: brightness(10);
                     filter: brightness(10); }
+                    
+                    
+                    
       section.menu .link-box .link:nth-child(1) {
-        left: -175px;
         -webkit-transition-delay: 0s;
                 transition-delay: 0s; }
       section.menu .link-box .link:nth-child(2) {
-        left: -75px;
         -webkit-transition-delay: .1s;
                 transition-delay: .1s; }
       section.menu .link-box .link:nth-child(3) {
-        left: -30px;
         -webkit-transition-delay: .2s;
                 transition-delay: .2s; }
       section.menu .link-box .link:nth-child(4) {
-        left: -5px;
         -webkit-transition-delay: .3s;
                 transition-delay: .3s; }
       section.menu .link-box .link:nth-child(5) {
-        left: 0px;
         -webkit-transition-delay: .4s;
                 transition-delay: .4s; }
       section.menu .link-box .link:nth-child(6) {
-        left: -9px;
         -webkit-transition-delay: .5s;
                 transition-delay: .5s; }
 
@@ -212,14 +206,13 @@ section.menu {
 
 
     section.menu .link-box:nth-of-type(2) {
-      top: 50%;
+      top: calc(50% - 70px);
       -webkit-transform: translateY(-50%);
               transform: translateY(-50%); }
       section.menu .link-box:nth-of-type(2) .link .title::before {
         background: #E63E33; }
       section.menu .link-box:nth-of-type(2) .link.bold {
-        border-color: #E63E33;
-        margin-bottom: 0; }
+        border-color: #E63E33; }
         section.menu .link-box:nth-of-type(2) .link.bold img {
           height: 14px;
           position: relative;
@@ -230,25 +223,23 @@ section.menu {
           background: #E63E33; }
           section.menu .link-box:nth-of-type(2) .link.bold:hover .title {
             color: #fff; }
+            
       section.menu .link-box:nth-of-type(2) .link:nth-child(1) {
-        left: -10px;
         -webkit-transition-delay: 0s;
                 transition-delay: 0s; }
       section.menu .link-box:nth-of-type(2) .link:nth-child(2) {
-        left: -0px;
         -webkit-transition-delay: .1s;
-                transition-delay: .1s;
-        margin-bottom: 32px; }
+                transition-delay: .1s; }
       section.menu .link-box:nth-of-type(2) .link:nth-child(3) {
-        left: -35px;
         -webkit-transition-delay: .2s;
                 transition-delay: .2s; }
 
 
 
     section.menu .link-box:nth-of-type(3) {
-      top: auto;
-      bottom: calc(50% - 306px); }
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%); }
       section.menu .link-box:nth-of-type(3) .link .title::before {
         background: #EF9B3A; }
       section.menu .link-box:nth-of-type(3) .link.bold {
@@ -263,25 +254,20 @@ section.menu {
           background: #EF9B3A; }
           section.menu .link-box:nth-of-type(3) .link.bold:hover .title {
             color: #fff; }
+            
       section.menu .link-box:nth-of-type(3) .link:nth-child(1) {
-        left: -0px;
         -webkit-transition-delay: 0s;
                 transition-delay: 0s; }
       section.menu .link-box:nth-of-type(3) .link:nth-child(2) {
-        left: -2px;
         -webkit-transition-delay: .1s;
                 transition-delay: .1s; }
       section.menu .link-box:nth-of-type(3) .link:nth-child(3) {
-        left: -20px;
         -webkit-transition-delay: .2s;
                 transition-delay: .2s; }
       section.menu .link-box:nth-of-type(3) .link:nth-child(4) {
-        left: -60px;
         -webkit-transition-delay: .3s;
-                transition-delay: .3s;
-        margin-bottom: 32px; }
+                transition-delay: .3s; }
       section.menu .link-box:nth-of-type(3) .link:nth-child(5) {
-        left: -155px;
         -webkit-transition-delay: .4s;
                 transition-delay: .4s; }
 
@@ -290,7 +276,7 @@ section.menu {
 
     section.menu .link-box:nth-of-type(4) {
       top: auto;
-      bottom: calc(50% - 306px); }
+      bottom: calc(50% - 280px); }
       section.menu .link-box:nth-of-type(4) .link .title::before {
         background: #EF9B3A; }
       section.menu .link-box:nth-of-type(4) .link.bold {
@@ -305,25 +291,20 @@ section.menu {
           background: #EF9B3A; }
           section.menu .link-box:nth-of-type(4) .link.bold:hover .title {
             color: #fff; }
+            
       section.menu .link-box:nth-of-type(4) .link:nth-child(1) {
-        left: -0px;
         -webkit-transition-delay: 0s;
                 transition-delay: 0s; }
       section.menu .link-box:nth-of-type(4) .link:nth-child(2) {
-        left: -2px;
         -webkit-transition-delay: .1s;
                 transition-delay: .1s; }
       section.menu .link-box:nth-of-type(4) .link:nth-child(3) {
-        left: -20px;
         -webkit-transition-delay: .2s;
                 transition-delay: .2s; }
       section.menu .link-box:nth-of-type(4) .link:nth-child(4) {
-        left: -60px;
         -webkit-transition-delay: .3s;
-                transition-delay: .3s;
-        margin-bottom: 32px; }
+                transition-delay: .3s; }
       section.menu .link-box:nth-of-type(4) .link:nth-child(5) {
-        left: -155px;
         -webkit-transition-delay: .4s;
                 transition-delay: .4s; }
 
@@ -366,8 +347,7 @@ section.menu {
         section.menu .link-box .link {
           position: static; }
           section.menu .link-box .link.bold {
-            position: relative;
-            left: -30px !important; }
+            position: relative; }
         section.menu .link-box:nth-of-type(2) {
           top: 168px;
           -webkit-transform: none;
