@@ -1595,7 +1595,7 @@ nav {
 
 body {
   background: white;
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'Roboto Condensed';
   font-size: 17px;
   font-smooth: always;
   -webkit-font-smoothing: antialiased;
@@ -1713,3 +1713,7 @@ div.redTransition {
   font-weight: 700;
   font-size: 10px;
   text-transform: uppercase; }
+
+section.menu .sektor text::first-letter {
+  font-size: 110%;
+}

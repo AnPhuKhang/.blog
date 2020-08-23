@@ -1750,22 +1750,25 @@ var Menu = /*#__PURE__*/function () {
           var sector = {
             element: $sector,
             active: false,
-            angle_o: 117-30,
+            angle_o: 119-30-3,
             angle_c: 22+3,
             rotate: 0,
             color: '#567DF8',
-            text: 'Work'
+            text: 'About'
           };
           this.sectors.push(sector);
         }
 
         this.sectors[0].active = true;
+        
         this.sectors[1].rotate = 119-30;
         this.sectors[1].color = '#E63E33';
-        this.sectors[1].text = 'About';
+        this.sectors[1].text = 'Project';
+        
         this.sectors[2].rotate = 143-30+3;
         this.sectors[2].color = '#FAC242';
-        this.sectors[2].text = 'Blog';
+        this.sectors[2].text = 'Klogger';
+        
         this.sectors[3].rotate = 167-30+6;
         this.sectors[3].color = '#ABACAD';
         this.sectors[3].text = 'Contact';
@@ -1793,7 +1796,7 @@ var Menu = /*#__PURE__*/function () {
             angle_c: 108,
             rotate: 0,
             color: '#567DF8',
-            text: 'Work'
+            text: 'About'
           };
           this.sectors.push(_sector2);
         }
@@ -1802,11 +1805,11 @@ var Menu = /*#__PURE__*/function () {
         this.sectors[1].rotate = 278;
 
         this.sectors[1].color = '#E63E33';
-        this.sectors[1].text = 'About';
+        this.sectors[1].text = 'Project';
         this.sectors[2].rotate = 396;
 
         this.sectors[2].color = '#FAC242';
-        this.sectors[2].text = 'Blog';
+        this.sectors[2].text = 'Klogger';
         this.sectors[3].rotate = 514;
         
         this.sectors[3].color = '#ABACAD';
@@ -2049,7 +2052,7 @@ var RecSektor = /*#__PURE__*/function () {
         return d;
       }
 
-      return "\n    <g class='group'>\n    <path\n      class='Sektor-sector'\n      id='curve'\n      stroke-width='".concat(options.stroke, "px'\n      fill=").concat(sectorFill, "\n      stroke=").concat(sectorStroke, "\n      d='").concat(d, "' />\n    <style>\n    text { \n        font-size: 26px;\n        font-family: 'Okta', sans-serif;\n        font-weight: 700; \n        letter-spacing: 0px;\n    }\n    </style>\n    <text class='text' x='2' y='24' transform=\"rotate(90 2,24) translate(").concat(options.rotate, ")\">\n          ").concat(options.text, "\n    </text>\n    </g>");
+      return "\n    <g class='group'>\n    <path\n      class='Sektor-sector'\n      id='curve'\n      stroke-width='".concat(options.stroke, "px'\n      fill=").concat(sectorFill, "\n      stroke=").concat(sectorStroke, "\n      d='").concat(d, "' />\n    <style>\n    text { \n        font-size: 26px;\n        font-family: 'Roboto Condensed';\n        font-weight: 700; \n        letter-spacing: 0px;\n    }\n    </style>\n    <text class='text' x='2' y='24' transform=\"rotate(90 2,24) translate(").concat(options.rotate, ")\">\n          ").concat(options.text, "\n    </text>\n    </g>");
     }
   }]);
 
@@ -2201,7 +2204,7 @@ var Sektor = /*#__PURE__*/function () {
         return d;
       }
 
-      return "\n    <g class='group' transform='rotate(".concat(options.rotate, ",").concat(options.center, ",").concat(options.center, ")'>\n    <path\n      class='Sektor-sector'\n      id='curve'\n      stroke-width='").concat(options.stroke, "'\n      fill=").concat(sectorFill, "\n      stroke=").concat(sectorStroke, "\n      d='").concat(d, "' />\n    <style>\n    text { \n        font-size: 26px;\n        font-family: 'Okta', sans-serif;\n        font-weight: 700; \n        letter-spacing: 0px;\n    }\n    </style>\n    <text dx=\"4\" dy=\"2\">\n        <textPath xlink:href=\"#curve\">\n            ").concat(options.text, "\n        </textPath>\n    </text>\n    </g>");
+      return "\n    <g class='group' transform='rotate(".concat(options.rotate, ",").concat(options.center, ",").concat(options.center, ")'>\n    <path\n      class='Sektor-sector'\n      id='curve'\n      stroke-width='").concat(options.stroke, "'\n      fill=").concat(sectorFill, "\n      stroke=").concat(sectorStroke, "\n      d='").concat(d, "' />\n    <style>\n    text { \n        font-size: 26px;\n        font-family: 'Roboto Condensed';\n        font-weight: 700; \n        letter-spacing: 0px;\n    }\n    </style>\n    <text dx=\"6\" dy=\"2\">\n        <textPath xlink:href=\"#curve\">\n            ").concat(options.text, "\n        </textPath>\n    </text>\n    </g>");
     }
   }, {
     key: "getCircle",
