@@ -87,6 +87,8 @@ section.menu {
       position: relative;
       font-size: 17px;
       line-height: 15px;
+      padding: 10px 0;
+      margin-bottom: 0.4rem;
       color: black;
       opacity: 0;
       -webkit-transform: translateX(60px);
@@ -343,20 +345,22 @@ section.menu {
         width: 100%;
         position: absolute;
         left: 60px;
-        top: 18px; }
+        top: 2px; }
         section.menu .link-box .link {
           position: static; }
           section.menu .link-box .link.bold {
             position: relative; }
         section.menu .link-box:nth-of-type(2) {
-          top: 168px;
+          top: 120px;
           -webkit-transform: none;
                   transform: none; }
         section.menu .link-box:nth-of-type(3) {
-          top: 279px; }
+          top: 238px;
+          -webkit-transform: none;
+                  transform: none; }
         
         section.menu .link-box:nth-of-type(4) {
-          top: 400px; }
+          top: 356px; }
           
       section.menu .sektors {
         width: 100%;
